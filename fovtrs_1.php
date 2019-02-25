@@ -78,7 +78,7 @@
                         <h1 class="display-4">JESSU'S CUISINE</h1>
                         <p class="lead">
                             Celebrate your birthdays or any event with your 
-                            family and us or order food to pick up. 
+                            family and us or order food to pick up. We serve fast and always hot!
                         </p>
                         <hr class="my-4">
                         <p>Located at #000 abcdefgh, Teresa, Sta. Mesa, Manila</p>
