@@ -157,7 +157,7 @@
       </label>
     </div>
   </div>
-  
+  <button type="submit" class="btn btn-primary">CREATE YOUR ACCOUNT</button>
 </form>
 
 
