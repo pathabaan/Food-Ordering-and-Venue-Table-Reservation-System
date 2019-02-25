@@ -24,47 +24,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: white" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Login</a>
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                         <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header" style="background-color: #FFA07A">
-                            <h5 class="modal-title" id="exampleModalLabel">LOGIN TO YOUR ACCOUNT</h5>
-                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                        </div>
-                         <div class="modal-body">
-                         <form>
-                        <div class="form-group">
-                         <label for="formGroupExampleInput">User Name</label>
-                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your username">
-                        </div>
-                        <div class="form-group">
-                        <label for="formGroupExampleInput">Password</label>
-                         <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your password">
-                         </div>
-  
-                         <div class="form-check">
-                          <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                          Remember Me
-                      </label>
-
-                      </form>
-                     </div>
-                         <div class="modal-footer">
-                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">LOGIN</button>
-                     </div>
-                      </div>
-                         </div>
-                            </div>
+                        <a class="nav-link"  href="user_homepage.php" style="color: white">Sign Out</a>    
                     </li>
-                    <li class="nav-item">  
-                       <a class="btn btn-primary btn-lg active" href="fovtrs_createaccount.php" role="button" aria-pressed="true">Create Your Account</a>
-                    </li> 
-
                 </ul>
             </div>
         </nav>
@@ -75,7 +36,7 @@
             <div class="row mt-5">
                 <div class="col-sm">
                     <div class="jumbotrons" style="background-color: #D2D7D3">
-                        <h1 class="display-4">JESSU'S CUISINE</h1>
+                        <h1 class="display-4">WELCOME BESHY</h1>
                         <p class="lead">
                             Celebrate your birthdays or any event with your 
                             family and us or order food to pick up. We serve fast and always hot!
@@ -83,34 +44,30 @@
                         <hr class="my-4">
                         <p>Located at #000 abcdefgh, Teresa, Sta. Mesa, Manila</p>
                         <p class="lead">
-                            <a class="btn btn-success btn-lg" href="modal_try1.php" role="button">Order Now</a>
-                            
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1">Order Now</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content" >
+                                        <form action="add_todo.php" method="post">
+                                            <div class="modal-header" style="background-color: #FFA07A">
+                                                <h5 class="modal-title" id="exampleModalLabel">LET'S GET STARTED</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
 
-                            
-                     </p>
-                    </div>
-                </div>
-                <div class="col-sm-7 ml-auto">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="images/img1.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="images/img2.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="images/img3.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                                            <div class="modal-body">
+                                                <div class="form-group text-center">
+                                                    <a href="pick_up_page.php" role="button" class="btn btn-secondary popover-test m-5" title="Popover title" data-content="Popover body content is set in this attribute.">Pick Up</a>
+                                                    <a href="reservation.php" role="button" class="btn btn-secondary popover-test m-5" title="Popover title" data-content="Popover body content is set in this attribute.">Reservation</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>        
+                        </p>
                     </div>
                 </div>
             </div>
@@ -152,7 +109,7 @@
                 </div>
             </div>
             <div class="row p-4">
-                <a href="view_menu.php" class="btn btn-dark ml-auto" style="color: white">View Menu</a>
+                <a href="user_view_menu.php" class="btn btn-dark ml-auto" style="color: white">View Menu</a>
             </div>
         </div>
         <!-- Content 3 -->
