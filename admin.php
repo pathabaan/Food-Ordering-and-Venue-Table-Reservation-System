@@ -121,13 +121,13 @@
                 display: block;
             }
             #sidebar ul li a:hover {
-                color: #7386D5;
+                color: #CF000F;
                 background: #fff;
             }
             ul ul a {
                 font-size: 0.9em !important;
                 padding-left: 30px !important;
-                background: #6d7fcc;
+                background: #CF000F;
             }
             #sidebarCollapse {
                 width: 40px;
@@ -220,14 +220,32 @@
                     </li>
                 </ul>
             </nav>
-            <!-- Page Content -->
-            <div id="content">
-                <button type="button" id="sidebarCollapse" class="navbar-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
+            <!-- Content -->
+            <div class="container-fluid">
+                <div class="row" style="background-color: #ECF0F1">
+                    <div class="col">
+                        <button type="button" id="sidebarCollapse" class="navbar-btn m-1" style="background-color: #ECF0F1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item m-2">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                <img src="user.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                                    Louie Gonzales 
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Settings</a>
+                                    <a class="dropdown-item" href="user.php">Log Out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            <div>
         </div> 
         <!-- Script -->
         <script>
