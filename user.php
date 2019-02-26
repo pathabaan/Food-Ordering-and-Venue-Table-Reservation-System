@@ -55,7 +55,7 @@
 
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">LOGIN</button>
+                                            <a class="btn btn-secondary" href="user_welcome_page.php" role="button" aria-pressed="true">Login</a>
                                         </div>
                                         
                                     </div>
@@ -98,30 +98,52 @@
                                             </div>
 
                                             <div class="modal-body">
-                                            <div class="form-group text-center">
-                                                    <button class="btn btn-secondary popover-test m-7" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                              <div class="form-group text-center">
+                                                    <button class="btn btn-warning popover-test mt-3 mr-3" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                                     <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
                                                       Pick Up
                                                     </button>
                                                     <div class="collapse" id="collapseExample"> 
-                                                           I WANT IT FOR TODAY, AT                              
-                                                                  <select id="inputState1" class="form-control">
-                                                                  <option selected>12:00 AM</option>
-                                                                  <option>February</option>
-                                                                  <option>March</option>
-                                                                  </select>
+                                                      <div class="card card-body text-center">
+                                                                I WANT IT FOR TODAY, AT    
+                                                                <div class="flex text-center">                        
+                                                                            <select id="inputState1" class="form-control">
+                                                                            <option selected>12:00 AM</option>
+                                                                            <option>February</option>
+                                                                            <option>March</option>
+                                                                            </select>          
+                                                                </div>
+                                                                <a class="btn btn-danger mb-2 mt-3" href="user_pickup.php" role="button" aria-pressed="true">CONFIRM</a>  
                                                       </div>
-                            
-                                                    <button class="btn btn-secondary popover-test m-8" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                                                    </div>
+
+                                                    <button class="btn btn-warning popover-test mt-3 ml-3" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
                                                       Reservation
                                                     </button>
                                                     <div class="collapse" id="collapseExample1">
-                                                            I WANT IT FOR TODAY, AT                              
-                                                                  <select id="inputState1" class="form-control">
-                                                                  <option selected>12:00 AM</option>
-                                                                  <option>February</option>
-                                                                  <option>March</option>
-                                                                  </select>
+                                                      <div class="card card-body">
+                                                                    I WANT IT FOR                             
+                                                                    <div class="d-flex text-center">
+
+                                                                            <div class="dropdownMenuOffset ml-5 mr-5" aria-labelledby="dropdownMenuOffset">
+                                                                                <select id="inputState2" class="form-control">
+                                                                                    <option selected>12-25-2018</option>
+                                                                                    <option>12-26-2018</option>
+                                                                                    <option>12-27-2018</option>
+                                                                                </select>                                                                         
+                                                                            </div>
+
+                                                                            <div class="dropdownMenuOffset ml-5" aria-labelledby="dropdownMenuOffset">
+                                                                                <select id="inputState3" class="form-control">
+                                                                                    <option selected>12:00 AM</option>
+                                                                                    <option>1:00 AM</option>
+                                                                                    <option>2:00 AM</option>
+                                                                                </select>                                                                         
+                                                                            </div>
+                                                                    </div>
+                                                                    <a class="btn btn-danger mb-2 mt-3" href="user_reservation.php" role="button" aria-pressed="true">CONFIRM</a>           
                                                        </div>
+                                                    </div> 
                                                 </div>
                                             </div>
                                         </form>
@@ -134,7 +156,7 @@
 
                 <!-- Carousel -->
                 <div class="col-sm-7 ml-auto">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                         <img src="images/img1.jpg" class="d-block w-100" alt="...">
@@ -158,6 +180,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Content 2 -->
         <div class="container-fluid mt-5" style="background-color: #CF3A24">
             <div class="row">

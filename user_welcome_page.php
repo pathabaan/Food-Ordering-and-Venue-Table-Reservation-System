@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link"  href="user_homepage.php" style="color: white">Sign Out</a>    
+                        <a class="nav-link"  href="user.php" style="color: white">Sign Out</a>    
                     </li>
                 </ul>
             </div>
@@ -58,9 +58,30 @@
                                             </div>
 
                                             <div class="modal-body">
-                                                <div class="form-group text-center">
-                                                    <a href="pick_up_page.php" role="button" class="btn btn-secondary popover-test m-5" title="Popover title" data-content="Popover body content is set in this attribute.">Pick Up</a>
-                                                    <a href="reservation.php" role="button" class="btn btn-secondary popover-test m-5" title="Popover title" data-content="Popover body content is set in this attribute.">Reservation</a>
+                                            <div class="form-group text-center">
+                                                    <button class="btn btn-secondary popover-test m-7" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                                      Pick Up
+                                                    </button>
+                                                    <div class="collapse" id="collapseExample"> 
+                                                           I WANT IT FOR TODAY, AT                              
+                                                                  <select id="inputState1" class="form-control">
+                                                                  <option selected>12:00 AM</option>
+                                                                  <option>February</option>
+                                                                  <option>March</option>
+                                                                  </select>
+                                                      </div>
+                            
+                                                    <button class="btn btn-secondary popover-test m-8" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                                                      Reservation
+                                                    </button>
+                                                    <div class="collapse" id="collapseExample1">
+                                                            I WANT IT FOR TODAY, AT                              
+                                                                  <select id="inputState1" class="form-control">
+                                                                  <option selected>12:00 AM</option>
+                                                                  <option>February</option>
+                                                                  <option>March</option>
+                                                                  </select>
+                                                       </div>
                                                 </div>
                                             </div>
                                         </form>
