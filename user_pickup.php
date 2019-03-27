@@ -17,21 +17,29 @@
     <body style="background-color: #D2D7D3">
         <div class="container mt-2 mb-2 p-3">
                 <div class="row text-center">
-                    <div class="col-sm">
-                        <h1>Food Pick up</h1>
+                    <div class="row-sm mx-auto">
+                        <h1>
+                        <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
+                        FOOD PICK UP
+                        </h1>
+                            <div class=" row p-3 mb-7 bg-info text-dark mx-auto border border-dark" style="width: 23rem;">
+                             AT 12:00 PM <br/>
+                             NOTICE: ONLY 10-15 MINUTES WAITING TIME <br/>
+                             THE ORDER WILL BE AUTOMATICALLY CANCEL
+                            </div>
                     </div>
                 </div>
         </div>
 
-
+  
         <!-- Content 1 -->
         <div class="container-fluid mt-5" style="background-color: #CF3A24">
             <div class="row">
                 <div class="col-sm text-center">
                     <div class="card" style="width: 18rem; background-color: #CF3A24; border: none">
-                        <img src="img4.png" class="card-img-top mx-auto" alt="..." style="width: 10rem; position: center">
+                        <img src="img8.png" class="card-img-top mx-auto" alt="..." style="width: 10rem; position: center">
                         <div class="card-body">
-                            <h5 class="card-title" style="color: white">Burger</h5>    
+                            <h5 class="card-title" style="color: white">Sizzling</h5>    
                         </div>
                     </div>
                 </div>
@@ -61,10 +69,11 @@
                 </div>
             </div>
         </div>
-        
+
+       <div class="container mt-5 mb-5" style="background-color: #FFA07A">   
         <!-- 3 Column with Picture -->
-        <div class="container mx-auto">
-            <div class="jumbotrons" style="background-color: #D2D7D3">
+          <div class="container mx-auto">
+            <div class="jumbotrons">
                 <h1 class="display-4">WHAT WOULD YOU LIKE FOR TODAY?</h1>
                 <hr class="my-4">
             </div>
@@ -75,7 +84,7 @@
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
                                <p class="card-text">Rice with chicken and fries</p>
-                                <a href="#" class="btn btn-danger">ADD TO ORDER</a>
+                               <a href="#" class="btn btn-danger">Add Order</a>  
                         </div> 
                     </div>
                 </div>
@@ -85,7 +94,7 @@
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
                                <p class="card-text">Rice with chicken and fries</p>
-                                <a href="#" class="btn btn-danger">ADD TO ORDER</a>
+                               <a href="#" class="btn btn-danger">Add Order</a>   
                         </div> 
                     </div>
                 </div>
@@ -95,7 +104,7 @@
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
                             <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">ADD TO ORDER</a>
+                            <a href="#" class="btn btn-danger">Add Order</a>  
                         </div>
                     </div>
                </div>
@@ -105,11 +114,287 @@
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
                             <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">ADD TO ORDER</a>
+                            <a href="#" class="btn btn-danger">Add Order</a> 
                         </div>
                     </div>
                </div>
             </div>
+
+           <!-- 4 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="row">
+                <div class="col-sm-3 mb-3">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a>   
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a>  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                            <a href="#" class="btn btn-danger">Add Order</a> 
+                        </div>
+                    </div>
+               </div>
+               <div class="col-sm-3 mb-3">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                            <a href="#" class="btn btn-danger">Add Order</a>
+                        </div>
+                    </div>
+               </div>
+            </div>
+
+            <!-- 5 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4">DOUBLE:</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a> 
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a>  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                            <a href="#" class="btn btn-danger">Add Order</a>
+                        </div>
+                    </div>
+               </div>
+             </div>
+        
+             
+            <!-- 6 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4">TRIO:</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a>  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a> 
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                            <a href="#" class="btn btn-danger">Add Order</a>
+                        </div>
+                    </div>
+               </div>
+             </div>
+
+             
+            <!-- 7 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4">SIZZLING MEALS:</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a>    
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a> 
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                            <a href="#" class="btn btn-danger">Add Order</a>
+                        </div>
+                    </div>
+               </div>
+             </div>
+
+             
+            <!-- 8 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4">ALA CARTE:</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a>  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a>  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                            <a href="#" class="btn btn-danger">Add Order</a>
+                        </div>
+                    </div>
+               </div>
+             </div>
+
+              <!-- 9 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4">BEVERAGES:</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-2 mb-2 mx-auto">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a>   
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-2 mb-2 mx-auto">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                               <a href="#" class="btn btn-danger">Add Order</a>   
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-2 mb-2 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                            <a href="#" class="btn btn-danger">Add Order</a>
+                        </div>
+                    </div>
+               </div>
+               <div class="col-sm-2 mb-2 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                            <a href="#" class="btn btn-danger">Add Order</a>
+                        </div>
+                    </div>
+               </div>
+            </div>
+
+            
+              <!-- 10 Column with Picture -->
+            <div class="container mx-auto">
+                <div class="jumbotrons">
+                    <hr class="my-4">
+                 <h1 class="display-4 row">THAT'S ALL MY ORDER</h1>
+                </div>
+
+                <div class="row">
+                   <a href="user_pickup_checkout_details.php" class="btn btn-warning ml-auto row" style="color: black">Check Out</a>
+                </div>
+            </div>
+
+            <div class="container mx-auto">
+                <div class="jumbotrons">
+                    <hr class="my-4">
+                 <h1 class="display-4 row"></h1>
+                </div>
+
+            </div>
+         </div>
+
         </div>
     </body>
 </html> 

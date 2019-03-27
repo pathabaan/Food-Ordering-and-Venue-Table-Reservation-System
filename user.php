@@ -12,6 +12,9 @@
                 overflow: hidden;
                 ...
             }
+            nav button{
+                background-color: #fff, !important;
+            }
         </style>
     </head>
     <body style="background-color: #D2D7D3">
@@ -82,10 +85,12 @@
                             family and us or order food to pick up. We serve fast and always hot!
                         </p>
                         <hr class="my-4">
-                        <p>Located at #000 abcdefgh, Teresa, Sta. Mesa, Manila</p>
+                        <p>Located at 247B Teresa St., Sta. Mesa, Manila</p>
                         <p class="lead">
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1">Order Now</button>
-                            <!-- Modal -->
+                        <p class="font-weight-bold">Create your account to order and get a loyalty card!</p>
+                        <img src="pic\card.png" class="rounded float-left" alt="..." style="width: 350;">
+                         <!--   <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1">Order Now</button>
+                            Modal 
                             <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content" >
@@ -118,38 +123,32 @@
                                                     </div>
 
                                                     <button class="btn btn-warning popover-test mt-3 ml-3" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                                                     <img src="" width="30" height="30" class="d-inline-block align-top" alt="">  
                                                       Reservation
                                                     </button>
                                                     <div class="collapse" id="collapseExample1">
                                                       <div class="card card-body">
-                                                                    I WANT IT FOR                             
+                                                                                           
                                                                     <div class="d-flex text-center">
+                                                                              <button type="button" class="btn btn-secondary btn-lg mx-auto ">
+                                                                              Table
+                                                                               <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
+                                                                               </button>
 
-                                                                            <div class="dropdownMenuOffset ml-5 mr-5" aria-labelledby="dropdownMenuOffset">
-                                                                                <select id="inputState2" class="form-control">
-                                                                                    <option selected>12-25-2018</option>
-                                                                                    <option>12-26-2018</option>
-                                                                                    <option>12-27-2018</option>
-                                                                                </select>                                                                         
-                                                                            </div>
-
-                                                                            <div class="dropdownMenuOffset ml-5" aria-labelledby="dropdownMenuOffset">
-                                                                                <select id="inputState3" class="form-control">
-                                                                                    <option selected>12:00 AM</option>
-                                                                                    <option>1:00 AM</option>
-                                                                                    <option>2:00 AM</option>
-                                                                                </select>                                                                         
-                                                                            </div>
+                                                                               <button type="button" class="btn btn-secondary btn-lg mx-auto">
+                                                                               Venue      
+                                                                               <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
+                                                                               </button>
                                                                     </div>
                                                                     <a class="btn btn-danger mb-2 mt-3" href="user_reservation.php" role="button" aria-pressed="true">CONFIRM</a>           
                                                        </div>
                                                     </div> 
-                                                </div>
+                                                </div> 
                                             </div>
                                         </form>
                                     </div>
                                 </div>
-                            </div>        
+                            </div>       -->   
                         </p>
                     </div>
                 </div>
@@ -186,9 +185,9 @@
             <div class="row">
                 <div class="col-sm p-3 text-center">
                     <div class="card" style="width: 18rem; background-color: #CF3A24; border: none">
-                        <img src="img4.png" class="card-img-top mx-auto" alt="..." style="width: 10rem; position: center">
+                        <img src="img8.png" class="card-img-top mx-auto" alt="..." style="width: 10rem; position: center">
                         <div class="card-body">
-                            <h5 class="card-title" style="color: white">Burger</h5>    
+                            <h5 class="card-title" style="color: white">Sizzling</h5>    
                         </div>
                     </div>
                 </div>

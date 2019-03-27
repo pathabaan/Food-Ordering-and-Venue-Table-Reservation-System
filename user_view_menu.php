@@ -9,6 +9,325 @@
     </head>
     
     <body style="background-color: #FFA07A">
+ <!-- 3 Column with Picture -->
+ <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4 flex text-center">--MENU--</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row">
+                <div class="col-sm-3 mb-3">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                           
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                              
+                        </div>
+                    </div>
+               </div>
+               <div class="col-sm-3 mb-3">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                              
+                        </div>
+                    </div>
+               </div>
+            </div>
+
+           <!-- 4 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="row">
+                <div class="col-sm-3 mb-3">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                              
+                        </div>
+                    </div>
+               </div>
+               <div class="col-sm-3 mb-3">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                              
+                        </div>
+                    </div>
+               </div>
+            </div>
+
+            <!-- 5 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4">DOUBLE:</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                              
+                        </div>
+                    </div>
+               </div>
+             </div>
+        
+             
+            <!-- 6 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4">TRIO:</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                              
+                        </div>
+                    </div>
+               </div>
+             </div>
+
+             
+            <!-- 7 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4">SIZZLING MEALS:</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                              
+                        </div>
+                    </div>
+               </div>
+             </div>
+
+             
+            <!-- 8 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4">ALA CARTE:</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-3 mb-3 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                              
+                        </div>
+                    </div>
+               </div>
+             </div>
+
+              <!-- 9 Column with Picture -->
+          <div class="container mx-auto">
+            <div class="jumbotrons">
+                <h1 class="display-4">BEVERAGES:</h1>
+                <hr class="my-4">
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-2 mb-2 mx-auto">    
+                    <div class="card">
+                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-2 mb-2 mx-auto">    
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                               <p class="card-text">Rice with chicken and fries</p>
+                                  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-sm-2 mb-2 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                              
+                        </div>
+                    </div>
+               </div>
+               <div class="col-sm-2 mb-2 mx-auto">     
+                    <div class="card">
+                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEAL B</h5>
+                            <p class="card-text">Rice with chicken and fries</p>
+                              
+                        </div>
+                    </div>
+               </div>
+            </div>
+
+            <div class="container mx-auto">
+                <div class="jumbotrons" style="background-color: #D2D7D3">
+                    <hr class="my-4">
+                </div>
+
+                <div class="row">
+                   <a href="user.php" class="btn btn-dark ml-auto row" style="color: white">BACK</a>
+                </div>
+            </div>
+
+            <div class="container mx-auto">
+                <div class="jumbotrons">
+                    <hr class="my-4">
+                 <h1 class="display-4 row"></h1>
+                </div>
+            
+
 
 
 </body>

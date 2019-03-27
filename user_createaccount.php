@@ -18,12 +18,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="user_homepage.php" style="color: white">Home</a>
+                    <li class="nav-item mr-1">
+                        <a class="nav-link" href="user.php" style="color: white">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ml-5">
                         <a class="nav-link" href="user_view_menu.php" style="color: white">View Menu</a>
                     </li>
+                    <!--
                     <li class="nav-item">
                     <a class="nav-link" href="#" style="color: white" data-toggle="modal" data-target="#exampleModal1" data-whatever="@mdo">Order Now</a>
                              <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -58,28 +59,22 @@
                                                     </div>
 
                                                     <button class="btn btn-warning popover-test mt-3 ml-3" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                                                     <img src="" width="30" height="30" class="d-inline-block align-top" alt="">  
                                                       Reservation
                                                     </button>
                                                     <div class="collapse" id="collapseExample1">
                                                       <div class="card card-body">
-                                                                    I WANT IT FOR                             
+                                                                                           
                                                                     <div class="d-flex text-center">
+                                                                              <button type="button" class="btn btn-secondary btn-lg mx-auto ">
+                                                                              Table
+                                                                               <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
+                                                                               </button>
 
-                                                                            <div class="dropdownMenuOffset ml-5 mr-5" aria-labelledby="dropdownMenuOffset">
-                                                                                <select id="inputState2" class="form-control">
-                                                                                    <option selected>12-25-2018</option>
-                                                                                    <option>12-26-2018</option>
-                                                                                    <option>12-27-2018</option>
-                                                                                </select>                                                                         
-                                                                            </div>
-
-                                                                            <div class="dropdownMenuOffset ml-5" aria-labelledby="dropdownMenuOffset">
-                                                                                <select id="inputState3" class="form-control">
-                                                                                    <option selected>12:00 AM</option>
-                                                                                    <option>1:00 AM</option>
-                                                                                    <option>2:00 AM</option>
-                                                                                </select>                                                                         
-                                                                            </div>
+                                                                               <button type="button" class="btn btn-secondary btn-lg mx-auto">
+                                                                               Venue      
+                                                                               <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
+                                                                               </button>
                                                                     </div>
                                                                     <a class="btn btn-danger mb-2 mt-3" href="user_reservation.php" role="button" aria-pressed="true">CONFIRM</a>           
                                                        </div>
@@ -90,97 +85,110 @@
                                         </form>
                                     </div>
                                 </div>
-                    </li>
+                    </li> -->
                    </ul>
             </div>
         </nav>
+      <div class="container mt-5 mb-5" style="background-color: #FFA07A">   
+        <div class="row">
+          <div class="col-lg-12 mr-3">  
+                <form class="px-4 py-5">  
+                      <div class="form-group" >
+                          <div class="col-sm-6">
+                            <label for="formGroupExampleInput">Full Name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name">
+                          </div>
+                      </div>
+                
+                      <div class="form-group">
+                            <div class="col-sm-6">
+                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name">
+                          </div>
+                    
+                          <div class="form-group">
+                            <div class="col-sm-3">
+                                  <label for="selectGender">Gender</label>
+                                  <select id="selectGender" class="form-control">
+                                  <option selected>Male</option>
+                                  <option>Female</option>
+                                  </select>
+                              </div>
 
 
-    <form class="px-4 py-5">  
-          <div class="form-group" >
-              <div class="col-sm-6">
-                <label for="formGroupExampleInput">Full Name</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name">
-              </div>
-          </div>
-    
-          <div class="form-group">
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name">
-               </div>
-        
-               <div class="form-group">
-                 <div class="col-sm-3">
-                      <label for="selectGender">Gender</label>
-                      <select id="selectGender" class="form-control">
-                      <option selected>Male</option>
-                      <option>Female</option>
-                      </select>
-                   </div>
+                          <div class="form-group">
+                            <div class="col-sm-3">
+                                <label for="inputAddress">Phone Number</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="xxxxxxxxxxx">
+                            </div>
+
+                          <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <label for="inputEmail4">User Name</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="User Name">
+                              </div>
 
 
-              <div class="form-group">
-                <div class="col-sm-3">
-                    <label for="inputAddress">Phone Number</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="xxxxxxxxxxx">
-                </div>
+                          <div class="form-group col-md-3">
+                              <label for="inputPassword4">Password</label>
+                              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                              <small id="passwordHelpBlock" class="form-text text-dark">Your password must be 8-20 characters long.</small>
+                            </div>
+                      </div>
 
-              <div class="form-row">
-                 <div class="form-group col-md-3">
-                    <label for="inputEmail4">User Name</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="User Name">
+              <form class="px-4 py-5">
+                  <div class="form-group">
+                      <label>Birthday</label>
+                    </div>
+                  <div class="form-row">
+                      <div class="form-group col-md-2">
+                      <input type="text" class="form-control" id="inputCity" placeholder="Year">
                   </div>
 
 
-               <div class="form-group col-md-3">
-                  <label for="inputPassword4">Password</label>
-                  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                  <small id="passwordHelpBlock" class="form-text text-muted">Your password must be 8-20 characters long.</small>
+                  <div class="form-group col-md-2">
+                        <select id="inputState" class="form-control">
+                        <option selected>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                        </select>
+                  </div>
+
+                    <div class="form-group col-md-2">
+                      <input type="text" class="form-control" id="inputZip" placeholder="Day">
+                    </div>
                 </div>
+
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      I agree in term & conditions
+                    </label>
+                  </div>
+                  <a class="btn btn-primary btn-lg active" href="user_welcome_page.php" role="button" aria-pressed="true">Create My Account</a>
+                </div>
+                </form>
           </div>
 
-  <form class="px-4 py-5">
-       <div class="form-group">
-          <label>Birthday</label>
+           <div class="card col">
+              <div class="card-col" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Rice with chicken and fries</p>  
+                  </div> 
+              </div>
+          </div>
+
         </div>
-       <div class="form-row">
-          <div class="form-group col-md-2">
-          <input type="text" class="form-control" id="inputCity" placeholder="Year">
       </div>
 
-
-      <div class="form-group col-md-2">
-            <select id="inputState" class="form-control">
-            <option selected>January</option>
-            <option>February</option>
-            <option>March</option>
-            <option>April</option>
-            <option>May</option>
-            <option>June</option>
-            <option>July</option>
-            <option>August</option>
-            <option>September</option>
-            <option>October</option>
-            <option>November</option>
-            <option>December</option>
-            </select>
-      </div>
-
-        <div class="form-group col-md-2">
-          <input type="text" class="form-control" id="inputZip" placeholder="Day">
-        </div>
-    </div>
-
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        I agree in term & conditions
-      </label>
-    </div>
-    <a class="btn btn-primary btn-lg active" href="user_welcome_page.php" role="button" aria-pressed="true">Create My Account</a>
-  </div>
-
-  </form>
     </body>
 </html> 

@@ -44,61 +44,29 @@
                         <hr class="my-4">
                         <p>Located at 247B Teresa St., Sta. Mesa, Manila</p>
                         <p class="lead">
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1">Order Now</button>
-                            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content" >
-                                        <form action="add_todo.php" method="post">
-                                            <div class="modal-header" style="background-color: #FFA07A">
-                                                <h5 class="modal-title" id="exampleModalLabel">LET'S GET STARTED</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Order Now</button>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                 <div class="modal-dialog" role="document">
+                                                     <div class="modal-content">
+                                                         <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">YOU HAVE A PENDING ORDER</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                              <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                         </div>
+                                               
+                                                        <div class="modal-body">
+                                                            Please claim first your initial order before placing another <br> order again. Thankyou and hope to serve you better!
+                                                        </div>
 
-                                            <div class="modal-body">
-                                              <div class="form-group text-center">
-                                                    <button class="btn btn-warning popover-test mt-3 mr-3" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                                     <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
-                                                      Pick Up
-                                                    </button>
-                                                    <div class="collapse" id="collapseExample"> 
-                                                      <div class="card card-body text-center">
-                                                                I WANT IT FOR TODAY, AT    
-                                                                <div class="flex text-center">                        
-                                                                            <select id="inputState1" class="form-control">
-                                                                            <option selected>12:00 AM</option>
-                                                                            <option>February</option>
-                                                                            <option>March</option>
-                                                                            </select>          
-                                                                </div>
-                                                                <a class="btn btn-danger mb-2 mt-3" href="user_pickup.php" role="button" aria-pressed="true">CONFIRM</a>  
-                                                      </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" hre="" class="btn btn-success" data-dismiss="modal">OKAY</button>
+                                                        </div>
+
                                                     </div>
-
-                                                    <button class="btn btn-warning popover-test mt-3 ml-3" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                                                     <img src="" width="30" height="30" class="d-inline-block align-top" alt="">  
-                                                      Reservation
-                                                    </button>
-                                                    <div class="collapse" id="collapseExample1">
-                                                      <div class="card card-body">
-                                                                                           
-                                                                    <div class="d-flex text-center">
-                                                                              <button type="button" class="btn btn-secondary btn-lg mx-auto ">
-                                                                              Table
-                                                                               <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
-                                                                               </button>
-
-                                                                               <button type="button" class="btn btn-secondary btn-lg mx-auto">
-                                                                               Venue      
-                                                                               <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
-                                                                               </button>
-                                                                    </div>
-                                                                    <a class="btn btn-danger mb-2 mt-3" href="user_reservation.php" role="button" aria-pressed="true">CONFIRM</a>           
-                                                       </div>
-                                                    </div> 
                                                 </div>
-                                            </div>
+                                            </div> 
                                         </form>
                                     </div>
                                 </div>
