@@ -28,42 +28,39 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#" style="color: white" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Login</a>
-                             <!-- Modal -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                            <div class="modal-header" style="background-color: #FFA07A">
-                                                <h5 class="modal-title" id="exampleModalLabel">LOGIN TO YOUR ACCOUNT</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                                </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <form action="login-exec.php" method="POST">
+                                        <div class="modal-header" style="background-color: #FFA07A">
+                                            <h5 class="modal-title" id="exampleModalLabel">LOGIN TO YOUR ACCOUNT</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput">User Name</label>
+                                                <input type="text" class="form-control" id="formGroupExampleInput" name="username" placeholder="Enter your username">
                                             </div>
-
-                                             <div class="modal-body">
-                                                 <form>
-                                                     <div class="form-group">
-                                                        <label for="formGroupExampleInput">User Name</label>
-                                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your username">
-                                                     </div>
-                                                     <div class="form-group">
-                                                        <label for="formGroupExampleInput">Password</label>
-                                                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your password">
-                                                     </div>
-                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                                                        <label class="form-check-label" for="gridCheck">Remember Me</label>
-                                                     </div>
-                                                 </form>
-                                           </div>
-
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput">Password</label>
+                                                <input type="password" class="form-control" id="formGroupExampleInput2" name="password" placeholder="Enter your password">
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">Remember Me</label>
+                                            </div>
+                                        </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                            <a class="btn btn-secondary" href="user_welcome_page.php" role="button" aria-pressed="true">Login</a>
+                                            <button type="submit" class="btn btn-primary">Login</button>
                                         </div>
-                                        
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
+                        </div>
                     </li>
                     <li class="nav-item">  
                        <a class="btn btn-primary btn-lg active" href="user_createaccount.php" role="button" aria-pressed="true">Create Your Account</a>

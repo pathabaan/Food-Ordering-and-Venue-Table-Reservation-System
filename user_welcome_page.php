@@ -15,6 +15,9 @@
         </style>
     </head>
     <body style="background-color: #D2D7D3">
+
+        <?php include('auth.php')?>
+
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #CF3A24">
             <a class="navbar-brand" style="color: white" href="#">Jessu's Cuisine</a>
@@ -24,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link"  href="user.php" style="color: white">Sign Out</a>    
+                        <a class="nav-link"  href="logout-exec.php" style="color: white">Sign Out</a>    
                     </li>
                 </ul>
             </div>
@@ -36,7 +39,7 @@
             <div class="row mt-5">
                 <div class="col-sm">
                     <div class="jumbotrons" style="background-color: #D2D7D3">
-                        <h1 class="display-4">WELCOME BESHY</h1>
+                        <h1 class="display-4">WELCOME <?= $_SESSION['USER_NAME']?></h1>
                         <p class="lead">
                             Celebrate your birthdays or any event with your 
                             family and us or order food to pick up. We serve fast and always hot!

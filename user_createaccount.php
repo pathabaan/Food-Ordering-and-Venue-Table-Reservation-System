@@ -90,6 +90,17 @@
             </div>
         </nav>
       <div class="container mt-5 mb-5" style="background-color: #FFA07A">   
+
+         <div class="row float-right mr-4 mt-5">
+            <div class="card">
+                <div class="card-col" style="width:15rem; height:18rem;" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><b>Terms and Conditions </b></p>  
+                    </div> 
+                </div>
+            </div>
+        </div>
+
         <div class="row">
           <div class="col-lg-12 mr-3">  
                 <form class="px-4 py-5">  
@@ -179,13 +190,13 @@
                 </form>
           </div>
 
-           <div class="card col">
-              <div class="card-col" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Rice with chicken and fries</p>  
-                  </div> 
-              </div>
-          </div>
+          <!-- card 
+          <div class="card row float-right mb-3" style="width: 15rem; height: 15rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div> -->
 
         </div>
       </div>
