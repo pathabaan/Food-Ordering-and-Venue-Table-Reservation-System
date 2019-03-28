@@ -20,8 +20,8 @@
                     <div class="card">
                         <img src="img6.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 60.00</h5>
+                               <p class="card-text">Chicken Pops with Rice</p>
                            
                         </div> 
                     </div>
@@ -30,8 +30,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 65.00</h5>
+                               <p class="card-text">Chicken Skin with Rice</p>
                                   
                         </div> 
                     </div>
@@ -40,8 +40,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 85.00</h5>
+                            <p class="card-text">Chicken with Spaghetti, Fries and Rice </p>
                               
                         </div>
                     </div>
@@ -50,8 +50,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 115.00</h5>
+                            <p class="card-text">2 Pieces Chicken with Rice (unlimited gravy)</p>
                               
                         </div>
                     </div>
@@ -65,8 +65,8 @@
                     <div class="card">
                         <img src="img6.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 75.00</h5>
+                               <p class="card-text">Liempo with Rice</p>
                                   
                         </div> 
                     </div>
@@ -75,8 +75,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 65.00</h5>
+                               <p class="card-text">Chicken Cordon Bleu with Rice</p>
                                   
                         </div> 
                     </div>
@@ -85,8 +85,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php. 70.00</h5>
+                            <p class="card-text">Buffalo wings with Rice</p>
                               
                         </div>
                     </div>
@@ -95,8 +95,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 80.00</h5>
+                            <p class="card-text">Bagnet with Rice</p>
                               
                         </div>
                     </div>
@@ -114,8 +114,8 @@
                     <div class="card">
                         <img src="img6.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 60.00</h5>
+                               <p class="card-text">D1. Chicken with Rice</p>
                                   
                         </div> 
                     </div>
@@ -124,8 +124,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 65.00</h5>
+                               <p class="card-text">D2. Chicken with Spaghetti</p>
                                   
                         </div> 
                     </div>
@@ -134,8 +134,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 65.00</h5>
+                            <p class="card-text">D3. Chicken with Fries</p>
                               
                         </div>
                     </div>
@@ -154,8 +154,8 @@
                     <div class="card">
                         <img src="img6.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 75.00</h5>
+                               <p class="card-text">T1. Chicken with Spaghetti and Rice</p>
                                   
                         </div> 
                     </div>
@@ -164,8 +164,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 75.00</h5>
+                               <p class="card-text">T2. Chicken with Fries and Rice</p>
                                   
                         </div> 
                     </div>
@@ -174,8 +174,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 75.00</h5>
+                            <p class="card-text">T3. Chicken with Spaghetti and Rice</p>
                               
                         </div>
                     </div>
@@ -194,8 +194,8 @@
                     <div class="card">
                         <img src="img6.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 70.00</h5>
+                               <p class="card-text">S1. Sizzling Pork Sisig</p>
                                   
                         </div> 
                     </div>
@@ -204,8 +204,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 75.00</h5>
+                               <p class="card-text">S2. Sizzling Tuna</p>
                                   
                         </div> 
                     </div>
@@ -214,8 +214,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 100.00</h5>
+                            <p class="card-text">S3. Sizzling Bagnet</p>
                               
                         </div>
                     </div>
@@ -234,8 +234,8 @@
                     <div class="card">
                         <img src="img6.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 40.00</h5>
+                               <p class="card-text">French Fries</p>
                                   
                         </div> 
                     </div>
@@ -244,8 +244,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 50.00</h5>
+                               <p class="card-text">Spaghetti</p>
                                   
                         </div> 
                     </div>
@@ -254,8 +254,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 50.00</h5>
+                            <p class="card-text">Chicken Skin</p>
                               
                         </div>
                     </div>
