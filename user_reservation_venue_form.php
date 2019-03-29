@@ -20,49 +20,55 @@
                     <div class="row-sm mx-auto">
                         <h1>
                         <img src="pic\jessuicon.jpg" width="45" height="45" class="d-inline-block align-top" alt="">
-                        FOOD PICK UP
+                        VENUE RESERVATION
                         </h1>
-                            <div class=" row p-3 mb-7 bg-info text-dark mx-auto" style="width: 23rem;">
-                             AT 12:00 PM <br/>
-                             NOTICE: ONLY 10-15 MINUTES WAITING TIME <br/>
-                             THE ORDER WILL BE AUTOMATICALLY CANCEL
-                            </div>
                     </div>
                 </div>
         </div>
 
       <!-- Content -->
-        <div class="card mx-auto" style="width: 49rem;">
+        <div class="card mx-auto" style="width: 49rem; background-color: #FFA07A">
             <div class="card-body">
 
               <div class="bg-success clearfix">
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4">1. DETAILS ></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled>2. RECEIPT</button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>1. FORM ></b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>2. MENU ></b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>3. DETAILS</b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>3. PAYMENT</b></button>
               </div>
 
               <div class="container mx-auto">
                   <div class="jumbotrons">
                    <hr class="my-4">
+                       <form>
+                            <div class="form-group row">
+                                <label for="colFormLabel" class="col-sm-2 col-form-label">Date</label>
+                                <div class="col-sm-10">
+                                <input type="email" class="form-control" id="colFormLabel" placeholder="MM-DD-YY">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="colFormLabel" class="col-sm-2 col-form-label">Time</label>
+                                <div class="col-sm-10">
+                                <input type="email" class="form-control" id="colFormLabel" placeholder=AM/PM">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="colFormLabel" class="col-sm-2 col-form-label">No. of guest</label>
+                                <div class="col-sm-10">
+                                <input type="email" class="form-control" id="colFormLabel" placeholder="maximum of 25 person">
+                                </div>
+                            </div>
 
-                   <div class="card">
-                        <div class="card-header">
-                        DETAILS
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">MY ORDER</h5>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <a href="user_pickup.php" class="btn btn-danger row mr-5">ADD MORE</a>
-                            <a href="user_pickup_checkout_receipt.php" class="btn btn-success row">CONFIRM MY ORDER</a>
-                        </div>
-                     </div>
+                        </form>
+                    </div>
+                </div>
 
-                  </div>
-              </div>
-
+                    <div class="row">
+                      <a href="user_welcome_page.php" class="btn btn-dark ml-auto  mr-4 mb-3 row" style="color: black">BACK</a>
+                      <a href="user_reservation_venue_menu.php" class="btn btn-success ml-auto  mr-4 mb-3 row" style="color: black">NEXT</a>
+                    </div>
              </div>
             </div>
         </div>

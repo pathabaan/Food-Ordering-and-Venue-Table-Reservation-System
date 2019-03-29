@@ -22,22 +22,18 @@
                         <img src="pic\jessuicon.jpg" width="45" height="45" class="d-inline-block align-top" alt="">
                         FOOD PICK UP
                         </h1>
-                            <div class=" row p-3 mb-7 bg-info text-dark mx-auto" style="width: 23rem;">
-                             AT 12:00 PM <br/>
-                             NOTICE: ONLY 10-15 MINUTES WAITING TIME <br/>
-                             THE ORDER WILL BE AUTOMATICALLY CANCEL
-                            </div>
                     </div>
                 </div>
         </div>
 
       <!-- Content -->
-        <div class="card mx-auto" style="width: 49rem;">
+        <div class="card mx-auto" style="width: 49rem; background-color: #FFA07A">
             <div class="card-body">
 
               <div class="bg-success clearfix">
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4">1. DETAILS ></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled>2. RECEIPT</button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>1. TIME ></b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>2. TABLE</b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>3. DETAILS</b></button>
               </div>
 
               <div class="container mx-auto">
@@ -46,17 +42,14 @@
 
                    <div class="card">
                         <div class="card-header">
-                        DETAILS
+                        <b>TABLE RESERVATION DETAILS</b>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">MY ORDER</h5>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <a href="user_pickup.php" class="btn btn-danger row mr-5">ADD MORE</a>
-                            <a href="user_pickup_checkout_receipt.php" class="btn btn-success row">CONFIRM MY ORDER</a>
+                            <h5 class="card-title">YOUR RESERVATION IS ALREADY CONFIRMED</h5>
+                            <p class="card-text">Please be here on time to avoid cancellation, 10-15 minutes waiting time only.<br/> Thankyou and Godbless!</p>                            
+                            <div>
+                            <a href="user_welcome_page_pending_reservation.php" class="btn btn-success ml-auto  mr-7 mb-3 row" style="color: black">OKAY</a>
+                            </div>
                         </div>
                      </div>
 
