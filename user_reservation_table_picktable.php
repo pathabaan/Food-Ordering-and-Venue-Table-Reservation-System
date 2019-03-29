@@ -46,12 +46,18 @@
                         </div class="mb-3">
                             <div class="form-group col-md-5 mx-auto mt-4">
                                 <select id="inputState" class="form-control">
-                                <option selected>TABLE 1 (4pax)</option>
-                                <option>TABLE 2 (4pax)</option>
-                                <option>TABLE 3 (4pax)</option>
-                                <option>TABLE 4 (4pax)</option>
-                                <option>TABLE 5 (4pax)</option>
-                                <option>TABLE 6 (6pax)</option>
+                                    <?php
+                                        include('conn.php');
+                                        $query = "SELECT * FROM table_tbl WHERE table_status = 'Available'";
+                                        $result = mysqli_query($con, $query);
+                                        if(mysqli_num_rows($result) > 0):
+                                            while($row = mysqli_fetch_array($result)):
+                                    ?>
+                                    <option><?= $row['table_name']?> (<?= $row['table_seat']?>pax)</option>
+                                        <?php endwhile;?>
+                                    <?php else:?>
+                                    <option>No Tables Available</option>
+                                    <?php endif;?>
                                 </select>
                             </div>
                         </div>
