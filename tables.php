@@ -6,9 +6,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Design for Tables -->
-    <link href="css/tables.css" rel="stylesheet">
-
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -32,7 +29,7 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <![endif]-->    
 </head>
 <body>
 
@@ -141,7 +138,37 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                <h3>Available tables for reservations</h3>
-                               <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">+ Add Todo</button>
+                               <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">+ ADD TABLE</button>
+                               <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <form action="add_todo.php" method="post">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Add Table</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="form-group">
+                                                            <label for="title">Table Name</label>
+                                                            <input type="text" class="form-control" id="title" name="title" placeholder="Enter Table Name">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="title">Number of Seats</label>
+                                                            <input type="text" class="form-control" id="time" name="time" placeholder="Enter Number of Seats">
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <!-- /.modal-content -->
+                                        </div>
+                                        <!-- /.modal-dialog -->
+                                    </div>
                             </div>
                             <!-- /.panel-heading -->
                             <div class="panel-body">
@@ -155,7 +182,22 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                
+                                                <?php 
+                                                while($row = mysqli_fetch_array($result)):
+                                            ?>
+                                            <tr>
+                                                <td><?=$row['table_name']?></td>
+                                                <td><?=$row['table_seats']?></td>
+                                                <td>
+                                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                                        <button type="button" class="btn btn-success">Edit</button>
+                                                        <a href="delete_todo.php?id=<?= $row['id']?>" class="btn btn-danger">Delete</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <?php 
+                                                endwhile;
+                                            ?>
                                             </tbody>
                                         </table>
                                     </div>
@@ -168,35 +210,34 @@
                 </div>
         </div>
     </div>
-
 </div>
 
 <!-- /#wrapper -->
 
         <!-- jQuery -->
-        <script src="../js/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
 
         <!-- Bootstrap Core JavaScript -->
-        <script src="../js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
         <!-- Metis Menu Plugin JavaScript -->
-        <script src="../js/metisMenu.min.js"></script>
-
-        <!-- DataTables JavaScript -->
-        <script src="../js/dataTables/jquery.dataTables.min.js"></script>
-        <script src="../js/dataTables/dataTables.bootstrap.min.js"></script>
+        <script src="js/metisMenu.min.js"></script>
 
         <!-- Custom Theme JavaScript -->
-        <script src="../js/startmin.js"></script>
+        <script src="js/startmin.js"></script>
 
-        <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+        <!-- Page-Level Demo Scripts - Notifications - Use for reference -->
         <script>
-            $(document).ready(function() {
-                $('#dataTables-example').DataTable({
-                        responsive: true
-                });
-            });
+            // tooltip demo
+            $('.tooltip-demo').tooltip({
+                selector: "[data-toggle=tooltip]",
+                container: "body"
+            })
+
+            // popover demo
+            $("[data-toggle=popover]").popover()
         </script>
+
 
 </body>
 </html>
