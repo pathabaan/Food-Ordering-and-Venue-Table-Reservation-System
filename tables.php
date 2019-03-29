@@ -6,8 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Dashboard Design -->
-    <link href="css/dashboard.css" rel="stylesheet">
+    <!-- Design for Tables -->
+    <link href="css/tables.css" rel="stylesheet">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -85,7 +85,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="#" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="admin.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-sitemap fa-fw"></i> Maintenance<span class="fa arrow"></span></a>
@@ -94,7 +94,7 @@
                                 <a href="tables.php">Tables</a>
                             </li>
                             <li>
-                                <a href="products.php">Products</a>
+                                <a href="#">Products</a>
                             </li>
                         </ul>
                     </li>
@@ -129,76 +129,74 @@
     <!-- Page Content -->
     <div id="page-wrapper">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="panel panel-yellow">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-cutlery fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">124</div>
-                                    <div>New Orders!</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-    
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-calendar-o fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">13</div>
-                                    <div>New Reservations!</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Tables</h1>
             </div>
-            <div class="row">
-
+            <!-- /.col-lg-12 -->
             </div>
+                <!-- /.row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                               <h3>Available tables for reservations</h3>
+                               <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">+ Add Todo</button>
+                            </div>
+                            <!-- /.panel-heading -->
+                            <div class="panel-body">
+                            <div class="table-responsive">
+                                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                            <thead>
+                                                <tr>
+                                                    <th>Table Name</th>
+                                                    <th>Number of Seats</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                            </div>
+                                <!-- /.panel-body -->
+                        </div>
+                            <!-- /.panel -->
+                    </div>
+                        <!-- /.col-lg-12 -->
+                </div>
         </div>
     </div>
 
 </div>
 
-<!-- jQuery -->
-<script src="js/jquery.min.js"></script>
+<!-- /#wrapper -->
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+        <!-- jQuery -->
+        <script src="../js/jquery.min.js"></script>
 
-<!-- Metis Menu Plugin JavaScript -->
-<script src="js/metisMenu.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../js/bootstrap.min.js"></script>
 
-<!-- Custom Theme JavaScript -->
-<script src="js/startmin.js"></script>
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="../js/metisMenu.min.js"></script>
+
+        <!-- DataTables JavaScript -->
+        <script src="../js/dataTables/jquery.dataTables.min.js"></script>
+        <script src="../js/dataTables/dataTables.bootstrap.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="../js/startmin.js"></script>
+
+        <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+        <script>
+            $(document).ready(function() {
+                $('#dataTables-example').DataTable({
+                        responsive: true
+                });
+            });
+        </script>
 
 </body>
 </html>
