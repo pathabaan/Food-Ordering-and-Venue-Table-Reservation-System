@@ -42,7 +42,7 @@
                             family and us or order food to pick up. We serve fast and always hot!
                         </p>
                         <hr class="my-4">
-                        <p>Located at 247B Teresa St., Sta. Mesa, Manila</p>
+                        <img src="pic\banner.jpg" class="rounded float-right" alt="...">
                         <p class="lead">
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Order Now</button>
                                             <!-- Modal -->
@@ -50,14 +50,14 @@
                                                  <div class="modal-dialog" role="document">
                                                      <div class="modal-content">
                                                          <div class="modal-header">
-                                                            <h5 class="modal-title" id="exampleModalLabel">YOU HAVE A PENDING ORDER</h5>
+                                                            <h5 class="modal-title" id="exampleModalLabel">YOU HAVE A PENDING RESERVATION</h5>
                                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                               <span aria-hidden="true">&times;</span>
                                                             </button>
                                                          </div>
                                                
                                                         <div class="modal-body">
-                                                            Please claim first your initial order before placing another <br> order again. Thankyou and hope to serve you better!
+                                                            Please finish first your initial transaction before placing another <br> reservation again. Thankyou and hope to serve you better!
                                                         </div>
 
                                                         <div class="modal-footer">
@@ -81,9 +81,9 @@
             <div class="row">
                 <div class="col-sm p-3 text-center">
                     <div class="card" style="width: 18rem; background-color: #CF3A24; border: none">
-                        <img src="img4.png" class="card-img-top mx-auto" alt="..." style="width: 10rem; position: center">
+                    <img src="img8.png" class="card-img-top mx-auto" alt="..." style="width: 10rem; position: center">
                         <div class="card-body">
-                            <h5 class="card-title" style="color: white">Burger</h5>    
+                            <h5 class="card-title" style="color: white">Sizzling</h5> 
                         </div>
                     </div>
                 </div>

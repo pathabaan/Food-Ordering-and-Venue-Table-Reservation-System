@@ -19,14 +19,9 @@
                 <div class="row text-center">
                     <div class="row-sm mx-auto">
                         <h1>
-                        <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
-                        FOOD PICK UP
+                        <img src="pic\jessuicon.jpg" width="45" height="45" class="d-inline-block align-top" alt="">
+                        VENUE RESERVATION MENU
                         </h1>
-                            <div class=" row p-3 mb-7 bg-info text-dark mx-auto border border-dark" style="width: 23rem;">
-                             AT 12:00 PM <br/>
-                             NOTICE: ONLY 10-15 MINUTES WAITING TIME <br/>
-                             THE ORDER WILL BE AUTOMATICALLY CANCEL
-                            </div>
                     </div>
                 </div>
         </div>
@@ -74,7 +69,7 @@
         <!-- 3 Column with Picture -->
           <div class="container mx-auto">
             <div class="jumbotrons">
-                <h1 class="display-4">WHAT WOULD YOU LIKE FOR TODAY?</h1>
+                <h1 class="display-6">CHOOSE FROM OUR BEST AND DELICIOUS FOODS</h1>
                 <hr class="my-4">
             </div>
             <div class="row">
@@ -82,8 +77,8 @@
                     <div class="card">
                         <img src="img6.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 60.00</h5>
+                                <p class="card-text">Chicken Pops with Rice</p>
                                <a href="#" class="btn btn-danger">Add Order</a>  
                         </div> 
                     </div>
@@ -92,8 +87,8 @@
                     <div class="card">
                         <img src="img5.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 65.00</h5>
+                                <p class="card-text">Chicken Skin with Rice</p>
                                <a href="#" class="btn btn-danger">Add Order</a>   
                         </div> 
                     </div>
@@ -382,7 +377,8 @@
                 </div>
 
                 <div class="row">
-                   <a href="user_pickup_checkout_details.php" class="btn btn-warning ml-auto row" style="color: black">Check Out</a>
+                   <a href="user_reservation_venue_menu.php" class="btn btn-dark row mr-5">BACK</a>
+                   <a href="user_reservation_venue_details.php" class="btn btn-warning ml-auto row" style="color: black">CONFIRM MY ORDER</a>
                 </div>
             </div>
 

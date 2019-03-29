@@ -89,19 +89,10 @@
                    </ul>
             </div>
         </nav>
-      <div class="container mt-5 mb-5" style="background-color: #FFA07A">   
+      <div class="container mt-5 mb-5" style="background-color: #FFA07A;">   
 
-         <div class="row float-right mr-4 mt-5">
-            <div class="card">
-                <div class="card-col" style="width:15rem; height:18rem;" alt="...">
-                    <div class="card-body">
-                      <p class="card-text"><b>Terms and Conditions </b></p>  
-                    </div> 
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
+        <div class="row mx-auto">
+        <img src="pic\banner.jpg" class="rounded float-right border border-primary mx-auto" alt="...">
           <div class="col-lg-12 mr-3">  
                 <form class="px-4 py-5">  
                       <div class="form-group" >

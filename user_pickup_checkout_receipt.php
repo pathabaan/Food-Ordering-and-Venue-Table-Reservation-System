@@ -19,7 +19,7 @@
                 <div class="row text-center">
                     <div class="row-sm mx-auto">
                         <h1>
-                        <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
+                        <img src="pic\jessuicon.jpg" width="45" height="45" class="d-inline-block align-top" alt="">
                         FOOD PICK UP
                         </h1>
                             <div class=" row p-3 mb-7 bg-info text-dark mx-auto" style="width: 23rem;">
@@ -54,7 +54,7 @@
                             <p class="card-text">Please print the receipt and give it to our cashier once you are already here in our store.<br/> Thankyou and Godbless!</p>                            
                             <div>
                             <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
-                            <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+                            <img src="pic\print.png" width="30" height="30" class="d-inline-block align-top" alt="">
                             PRINT RECEIPT
                             </button>
                              <!-- Modal -->
@@ -71,7 +71,7 @@
                                     Your pick up time is 12:00 PM, please be at our store at <br> that time to avoid cancellation of order, 10-15 minutes <br> waiting time only. Thankyou and hope to serve you better!
                                 </div>
                                 <div class="modal-footer">
-                                    <a class="btn btn-success" href="user_welcome_page_pendingorder.php" role="button" aria-pressed="true">OKAY</a>
+                                    <a class="btn btn-success" href="user_welcome_page_pending_order.php" role="button" aria-pressed="true">OKAY</a>
                                 </div>
                                 </div>
                             </div>

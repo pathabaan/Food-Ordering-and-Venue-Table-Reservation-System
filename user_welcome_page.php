@@ -45,7 +45,18 @@
                             family and us or order food to pick up. We serve fast and always hot!
                         </p>
                         <hr class="my-4">
-                        <p>Located at 247B Teresa St., Sta. Mesa, Manila</p>
+                        
+                        <img src="pic\banner.jpg" class="rounded float-right border border-primary" alt="...">
+                        <div class="row float-right mr-4 mt-5">
+                            <div class="card border border-danger">
+                                <div class="card-col" style="width:50rem; height:18rem;" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text"><b>NOTE: </b></p>  
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        
                         <p class="lead">
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1">Order Now</button>
                             <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -62,7 +73,7 @@
                                             <div class="modal-body">
                                               <div class="form-group text-center">
                                                     <button class="btn btn-warning popover-test mt-3 mr-3" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                                     <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+                                                     <img src="pic\pickup_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
                                                       Pick Up
                                                     </button>
                                                     <div class="collapse" id="collapseExample"> 
@@ -75,27 +86,27 @@
                                                                             <option>March</option>
                                                                             </select>          
                                                                 </div>
-                                                                <a class="btn btn-danger mb-2 mt-3" href="user_pickup.php" role="button" aria-pressed="true">CONFIRM</a>  
+                                                                <a class="btn btn-danger mb-2 mt-3" href="user_pickup_menu.php" role="button" aria-pressed="true">CONFIRM</a>  
                                                       </div>
                                                     </div>
 
                                                     <button class="btn btn-warning popover-test mt-3 ml-3" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                                                     <img src="" width="30" height="30" class="d-inline-block align-top" alt="">  
+                                                     <img src="pic\reservation_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">  
                                                       Reservation
                                                     </button>
                                                     <div class="collapse" id="collapseExample1">
                                                       <div class="card card-body">
                                                                                            
                                                                     <div class="d-flex text-center">
-                                                                              <button type="button" class="btn btn-secondary btn-lg mx-auto ">
+                                                                              <a href="user_reservation_table_time.php" type="button" class="btn btn-secondary btn-lg mx-auto ">
                                                                               Table
-                                                                               <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
-                                                                               </button>
+                                                                               <img src="pic\table.png" width="45" height="45" class="d-inline-block align-top" alt="">
+                                                                               </a>
 
-                                                                               <button type="button" class="btn btn-secondary btn-lg mx-auto">
+                                                                               <a href="user_reservation_venue_time.php" type="button" class="btn btn-secondary btn-lg mx-auto">
                                                                                Venue      
-                                                                               <img src="" width="45" height="45" class="d-inline-block align-top" alt="">
-                                                                               </button>
+                                                                               <img src="pic\venue.png" width="45" height="45" class="d-inline-block align-top" alt="">
+                                                                               </a>
                                                                     </div>
                                                                     <a class="btn btn-danger mb-2 mt-3" href="user_reservation.php" role="button" aria-pressed="true">CONFIRM</a>           
                                                        </div>
@@ -116,9 +127,9 @@
             <div class="row">
                 <div class="col-sm p-3 text-center">
                     <div class="card" style="width: 18rem; background-color: #CF3A24; border: none">
-                        <img src="img4.png" class="card-img-top mx-auto" alt="..." style="width: 10rem; position: center">
+                        <     <img src="img8.png" class="card-img-top mx-auto" alt="..." style="width: 10rem; position: center">
                         <div class="card-body">
-                            <h5 class="card-title" style="color: white">Burger</h5>    
+                            <h5 class="card-title" style="color: white">Sizzling</h5> 
                         </div>
                     </div>
                 </div>

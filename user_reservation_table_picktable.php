@@ -20,52 +20,52 @@
                     <div class="row-sm mx-auto">
                         <h1>
                         <img src="pic\jessuicon.jpg" width="45" height="45" class="d-inline-block align-top" alt="">
-                        FOOD PICK UP
+                        TABLE RESERVATION
                         </h1>
-                            <div class=" row p-3 mb-7 bg-info text-dark mx-auto" style="width: 23rem;">
-                             AT 12:00 PM <br/>
-                             NOTICE: ONLY 10-15 MINUTES WAITING TIME <br/>
-                             THE ORDER WILL BE AUTOMATICALLY CANCEL
-                            </div>
                     </div>
                 </div>
         </div>
 
       <!-- Content -->
-        <div class="card mx-auto" style="width: 49rem;">
+      <div class="card mx-auto" style="width: 49rem; background-color: #FFA07A">
             <div class="card-body">
 
               <div class="bg-success clearfix">
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4">1. DETAILS ></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled>2. RECEIPT</button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>1. TIME ></b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>2. TABLE ></b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>3. DETAILS</b></button>
               </div>
 
               <div class="container mx-auto">
                   <div class="jumbotrons">
                    <hr class="my-4">
 
-                   <div class="card">
+                   <div class="card mb-3">
                         <div class="card-header">
-                        DETAILS
+                        <b>WHAT TABLE WOULD YOU LIKE TO RESERVE FOR TODAY?</b>
+                        </div class="mb-3">
+                            <div class="form-group col-md-5 mx-auto mt-4">
+                                <select id="inputState" class="form-control">
+                                <option selected>TABLE 1 (4pax)</option>
+                                <option>TABLE 2 (4pax)</option>
+                                <option>TABLE 3 (4pax)</option>
+                                <option>TABLE 4 (4pax)</option>
+                                <option>TABLE 5 (4pax)</option>
+                                <option>TABLE 6 (6pax)</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">MY ORDER</h5>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <a href="user_pickup.php" class="btn btn-danger row mr-5">ADD MORE</a>
-                            <a href="user_pickup_checkout_receipt.php" class="btn btn-success row">CONFIRM MY ORDER</a>
-                        </div>
-                     </div>
+                    </div>
 
-                  </div>
-              </div>
-
+                    <div class="row">
+                      <a href="user_reservation_table_time.php" class="btn btn-dark ml-auto  mr-7 mb-3 row" style="color: white">BACK</a>
+                      <a href="user_reservation_table_details.php" class="btn btn-danger ml-auto  mr-4 mb-3 row" style="color: black">CONFIRM</a>
+                    </div>
              </div>
             </div>
         </div>
+
+
 
 
 

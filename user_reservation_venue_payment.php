@@ -20,55 +20,43 @@
                     <div class="row-sm mx-auto">
                         <h1>
                         <img src="pic\jessuicon.jpg" width="45" height="45" class="d-inline-block align-top" alt="">
-                        FOOD PICK UP
+                        VENUE RESERVATION
                         </h1>
-                            <div class=" row p-3 mb-7 bg-info text-dark mx-auto" style="width: 23rem;">
-                             AT 12:00 PM <br/>
-                             NOTICE: ONLY 10-15 MINUTES WAITING TIME <br/>
-                             THE ORDER WILL BE AUTOMATICALLY CANCEL
-                            </div>
                     </div>
                 </div>
         </div>
 
       <!-- Content -->
-        <div class="card mx-auto" style="width: 49rem;">
+        <div class="card mx-auto" style="width: 49rem; background-color: #FFA07A">
             <div class="card-body">
 
               <div class="bg-success clearfix">
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4">1. DETAILS ></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled>2. RECEIPT</button>
+              <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>1. FORM ></b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>2. MENU ></b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>3. DETAILS</b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>3. PAYMENT</b></button>
               </div>
 
               <div class="container mx-auto">
                   <div class="jumbotrons">
-                   <hr class="my-4">
-
-                   <div class="card">
+                        <hr class="my-4">
+                        <h2>RESERVATION DETAILS</h2>
+                        <div class="card">
                         <div class="card-header">
-                        DETAILS
+                        PAYMENT
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">MY ORDER</h5>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <p class="card-text">3X MEAL B PHP.200.OO</p>
-                            <a href="user_pickup.php" class="btn btn-danger row mr-5">ADD MORE</a>
-                            <a href="user_pickup_checkout_receipt.php" class="btn btn-success row">CONFIRM MY ORDER</a>
+                            <div class="card-body">
+                                <h5 class="card-title">VENUE RESERVATION</h5>
+                                <p class="card-text">Please come here at our store 3 days before your reservation date to settle your downpayment for your reservation, failed to attend within the specified date means automatic cancellation of your reservation</p>
+                                <a href="user_reservation_venue_details.php" class="btn btn-dark row mr-5">BACK</a>
+                                <a href="user_welcome_page_pending_reservation.php" class="btn btn-success row mr-5">OKAY</a>
+                          </div>
                         </div>
-                     </div>
-
-                  </div>
-              </div>
-
+                   </div>
+                </div>
              </div>
             </div>
         </div>
-
-
-
 
         <!-- Content 1 -->
         <div class="container-fluid mt-5" style="background-color: #CF3A24">
