@@ -115,8 +115,7 @@
                         <img src="menu\chickenwithrice.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 60.00</h5>
-                               <p class="card-text">D1. Chicken with Rice</p>
-                                  
+                               <p class="card-text">D1. Chicken with Rice</p>                                
                         </div> 
                     </div>
                 </div>
@@ -125,14 +124,13 @@
                         <img src="menu\chickenwithspaghetti.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 65.00</h5>
-                               <p class="card-text">D2. Chicken with Spaghetti</p>
-                                  
+                               <p class="card-text">D2. Chicken with Spaghetti</p>        
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\chickenwithfries.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 65.00</h5>
                             <p class="card-text">D3. Chicken with Fries</p>
@@ -152,7 +150,7 @@
             <div class="row mx-auto">
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\chickenwithspaghettiandrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 75.00</h5>
                                <p class="card-text">T1. Chicken with Spaghetti and Rice</p>
@@ -162,7 +160,7 @@
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\chickenwithfriesandrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 75.00</h5>
                                <p class="card-text">T2. Chicken with Fries and Rice</p>
@@ -172,10 +170,10 @@
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\chickenwithspaghettiandfries.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 75.00</h5>
-                            <p class="card-text">T3. Chicken with Spaghetti and Rice</p>
+                            <p class="card-text">T3. Chicken with Spaghetti and Fries</p>
                               
                         </div>
                     </div>
@@ -192,7 +190,7 @@
             <div class="row mx-auto">
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\sizzlingporksisig.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 70.00</h5>
                                <p class="card-text">S1. Sizzling Pork Sisig</p>
@@ -202,17 +200,16 @@
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\sizzlingtuna.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 75.00</h5>
-                               <p class="card-text">S2. Sizzling Tuna</p>
-                                  
+                               <p class="card-text">S2. Sizzling Tuna</p>                                 
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\sizzlingbagnet.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 100.00</h5>
                             <p class="card-text">S3. Sizzling Bagnet</p>
@@ -232,7 +229,7 @@
             <div class="row mx-auto">
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\frenchfries.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 40.00</h5>
                                <p class="card-text">French Fries</p>
