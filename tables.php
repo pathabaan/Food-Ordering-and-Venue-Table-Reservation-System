@@ -205,7 +205,7 @@
                                                 <td>
                                                     
                                                     <button type="button" class="btn btn-success btn-circle"><i class="fa fa-pencil"></i></button>
-                                                    <button a href="delete_todo.php?id=<?= $row['id']? type="button" class="btn btn-danger btn-circle" ><i class="fa fa-trash-o"></i></button>
+                                                    <button type="button" class="btn btn-danger btn-circle" ><i class="fa fa-trash-o"></i></button>
                                                     
                                                 </td>
                                             </tr>
