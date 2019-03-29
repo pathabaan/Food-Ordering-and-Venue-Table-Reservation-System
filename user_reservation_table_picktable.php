@@ -53,7 +53,7 @@
                                         if(mysqli_num_rows($result) > 0):
                                             while($row = mysqli_fetch_array($result)):
                                     ?>
-                                    <option><?= $row['table_name']?> (<?= $row['table_seat']?>pax)</option>
+                                    <option value="<?= $row['table_id']?>"><?= $row['table_name']?> (<?= $row['table_seat']?>pax)</option>
                                         <?php endwhile;?>
                                     <?php else:?>
                                     <option>No Tables Available</option>
