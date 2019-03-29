@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Mar 29, 2019 at 05:26 PM
+- Server version: 10.1.37-MariaDB
+- PHP Version: 7.3.0
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="jessus" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="table_tbl">
+                CREATE TABLE `table_tbl` (
+                  `table_id` int(11) NOT NULL AUTO_INCREMENT,
+                  `table_name` char(3) NOT NULL,
+                  `table_seat` int(11) NOT NULL,
+                  `table_status` varchar(255) NOT NULL,
+                  PRIMARY KEY (`table_id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'jessus'
+    -->
+    <database name="jessus">
+        <!-- Table table_tbl -->
+        <table name="table_tbl">
+            <column name="table_id">19</column>
+            <column name="table_name">TB1</column>
+            <column name="table_seat">4</column>
+            <column name="table_status">Available</column>
+        </table>
+        <table name="table_tbl">
+            <column name="table_id">20</column>
+            <column name="table_name">TB2</column>
+            <column name="table_seat">4</column>
+            <column name="table_status">Available</column>
+        </table>
+        <table name="table_tbl">
+            <column name="table_id">21</column>
+            <column name="table_name">TB3</column>
+            <column name="table_seat">4</column>
+            <column name="table_status">Available</column>
+        </table>
+        <table name="table_tbl">
+            <column name="table_id">22</column>
+            <column name="table_name">TB4</column>
+            <column name="table_seat">4</column>
+            <column name="table_status">Available</column>
+        </table>
+        <table name="table_tbl">
+            <column name="table_id">23</column>
+            <column name="table_name">TB5</column>
+            <column name="table_seat">1</column>
+            <column name="table_status">Available</column>
+        </table>
+    </database>
+</pma_xml_export>

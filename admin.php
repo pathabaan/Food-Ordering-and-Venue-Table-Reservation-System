@@ -39,7 +39,7 @@
 <div id="wrapper">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color:#CF3A24">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Jessu's Cuisine</a>
         </div>
@@ -180,9 +180,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-
-            </div>
+            
         </div>
     </div>
 

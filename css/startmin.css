@@ -62,7 +62,7 @@ body {
 
 .navbar-top-links>li>a:hover, .navbar-top-links>li>a:focus, .navbar-top-links>.open>a, .navbar-top-links>.open>a:hover, .navbar-top-links>.open>a:focus {
     color: #fff;
-    background-color: #222;
+    background-color: #CF3A24;
 }
 
 .navbar-top-links .dropdown-menu li {

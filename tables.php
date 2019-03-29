@@ -36,7 +36,7 @@
 <div id="wrapper">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color:#CF3A24">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Jessu's Cuisine</a>
         </div>
@@ -60,7 +60,7 @@
                     <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                     </li>
                     <li class="divider"></li>
-                    <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    <li><a href="user.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                     </li>
                 </ul>
             </li>
@@ -141,8 +141,9 @@
                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">+ ADD TABLE</button>
                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
+                                            <!-- Modal -->
                                             <div class="modal-content">
-                                                <form action="add_todo.php" method="post">
+                                                <form action="Tables/add_table.php" method="post">
                                                     <div class="modal-header">
                                                         <h5 class="modal-title" id="exampleModalLabel">Add Table</h5>
                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -152,11 +153,15 @@
                                                     <div class="modal-body">
                                                         <div class="form-group">
                                                             <label for="title">Table Name</label>
-                                                            <input type="text" class="form-control" id="title" name="title" placeholder="Enter Table Name">
+                                                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Table Name">
                                                         </div>
                                                         <div class="form-group">
                                                             <label for="title">Number of Seats</label>
-                                                            <input type="text" class="form-control" id="time" name="time" placeholder="Enter Number of Seats">
+                                                            <input type="number" class="form-control" id="seats" name="seats" placeholder="Enter Number of Seats">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="title">Availability of the Seat</label>
+                                                            <input type="text" class="form-control" id="status" name="status" placeholder="Enter Number of Seats">
                                                         </div>
                                                     </div>
                                                     <div class="modal-footer">
@@ -172,27 +177,36 @@
                             </div>
                             <!-- /.panel-heading -->
                             <div class="panel-body">
+
+                            <!-- Table -->
                             <div class="table-responsive">
-                                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
-                                            <thead>
-                                                <tr>
-                                                    <th>Table Name</th>
-                                                    <th>Number of Seats</th>
-                                                    <th>Actions</th>
-                                                </tr>
-                                            </thead>
+                                <?php
+                                    include('conn.php');
+                                    $query = "SELECT * FROM table_tbl";
+                                    $result = mysqli_query($con, $query);
+                                ?>
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th>Table Name</th>
+                                            <th>Number of Seats</th>
+                                            <th>Table Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
                                             <tbody>
                                                 <?php 
-                                                while($row = mysqli_fetch_array($result)):
-                                            ?>
+                                                    while($row = mysqli_fetch_array($result)):
+                                                ?>
                                             <tr>
                                                 <td><?=$row['table_name']?></td>
-                                                <td><?=$row['table_seats']?></td>
+                                                <td><?=$row['table_seat']?></td>
+                                                <td><?=$row['table_status']?></td>
                                                 <td>
-                                                    <div class="btn-group" role="group" aria-label="Basic example">
-                                                        <button type="button" class="btn btn-success">Edit</button>
-                                                        <a href="delete_todo.php?id=<?= $row['id']?>" class="btn btn-danger">Delete</a>
-                                                    </div>
+                                                    
+                                                    <button type="button" class="btn btn-success btn-circle"><i class="fa fa-pencil"></i></button>
+                                                    <button a href="delete_todo.php?id=<?= $row['id']? type="button" class="btn btn-danger btn-circle" ><i class="fa fa-trash-o"></i></button>
+                                                    
                                                 </td>
                                             </tr>
                                             <?php 
