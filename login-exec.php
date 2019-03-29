@@ -31,7 +31,7 @@
             }
             //redirect to user.php
             if($_SESSION['USER_ROLE'] == 'admin'){
-                header('admin.php');
+                header('location: admin.php');
             }else{
                 header("location: user_welcome_page.php");
             }
@@ -44,8 +44,6 @@
         }
     }else{
         $_SESSION['LOGGED_IN'] = 0;
-        echo mysqli_error($con);
-        exit;
         //else, there is a problem in query execution
         header("location: error_page.php");
         exit();
