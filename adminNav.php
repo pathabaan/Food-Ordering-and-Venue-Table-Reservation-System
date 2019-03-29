@@ -67,7 +67,7 @@
                           <a href="#">Orders</a>
                       </li>
                       <li>
-                          <a href="#">Table Reseration</a>
+                          <a href="table_reservation.php">Table Reseration</a>
                       </li>
                       <li>
                           <a href="#">Venue Reseration</a>

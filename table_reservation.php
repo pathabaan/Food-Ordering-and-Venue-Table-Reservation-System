@@ -106,7 +106,6 @@
                                             <th>Type</th>
                                             <th>User</th>
                                             <th>Table Name</th>
-                                            <th>Venue Date</th>
                                             <th>Actions</th>
                                         </tr>
                                     </thead>
@@ -119,7 +118,6 @@
                                                 <td><?=$row['reserve_type']?></td>
                                                 <td><?=$row['fname'].' '.$row['mname'].' '.$row['lname']?></td>
                                                 <td><?=$row['table_name']?></td>
-                                                <td><?=$row['venue_date']?></td>
                                                 <td><button class="btn btn-primary">Actions</button></td>
                                             </tr>
                                             <?php 
