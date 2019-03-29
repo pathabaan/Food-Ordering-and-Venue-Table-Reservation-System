@@ -46,7 +46,7 @@
                         </p>
                         <hr class="my-4">
                         
-                        <img src="pic\banner.jpg" class="rounded float-right border border-primary" alt="...">
+                        <img src="pic\banner.jpg" class="rounded float-right border border-primary">
                         <div class="row float-right mr-4 mt-5">
                             <div class="card border border-danger">
                                 <div class="card-col" style="width:50rem; height:18rem;" alt="...">
@@ -59,7 +59,7 @@
                         
                         <p class="lead">
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1">Order Now</button>
-                            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content" >
                                         <form action="add_todo.php" method="post">
@@ -71,44 +71,43 @@
                                             </div>
 
                                             <div class="modal-body">
-                                              <div class="form-group text-center">
+                                                <div class="form-group text-center">
                                                     <button class="btn btn-warning popover-test mt-3 mr-3" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                                     <img src="pic\pickup_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                                                      Pick Up
+                                                        <img src="pic\pickup_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                                                        Pick Up
                                                     </button>
                                                     <div class="collapse" id="collapseExample"> 
-                                                      <div class="card card-body text-center">
-                                                                I WANT IT FOR TODAY, AT    
-                                                                <div class="flex text-center">                        
-                                                                            <select id="inputState1" class="form-control">
-                                                                            <option selected>12:00 AM</option>
-                                                                            <option>February</option>
-                                                                            <option>March</option>
-                                                                            </select>          
-                                                                </div>
-                                                                <a class="btn btn-danger mb-2 mt-3" href="user_pickup_menu.php" role="button" aria-pressed="true">CONFIRM</a>  
-                                                      </div>
+                                                        <div class="card card-body text-center">
+                                                            I WANT IT FOR TODAY, AT    
+                                                            <div class="flex text-center">                        
+                                                                <select id="inputState1" class="form-control">
+                                                                    <option selected>12:00 AM</option>
+                                                                    <option>February</option>
+                                                                    <option>March</option>
+                                                                </select>          
+                                                            </div>
+                                                            <a class="btn btn-danger mb-2 mt-3" href="user_pickup_menu.php" role="button" aria-pressed="true">CONFIRM</a>  
+                                                        </div>
                                                     </div>
 
                                                     <button class="btn btn-warning popover-test mt-3 ml-3" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                                                     <img src="pic\reservation_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">  
-                                                      Reservation
+                                                        <img src="pic\reservation_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">  
+                                                        Reservation
                                                     </button>
                                                     <div class="collapse" id="collapseExample1">
-                                                      <div class="card card-body">
-                                                                                           
-                                                                    <div class="d-flex text-center">
-                                                                              <a href="user_reservation_table_time.php" type="button" class="btn btn-secondary btn-lg mx-auto ">
-                                                                              Table
-                                                                               <img src="pic\table.png" width="45" height="45" class="d-inline-block align-top" alt="">
-                                                                               </a>
+                                                        <div class="card card-body">
+                                                            <div class="d-flex text-center">
+                                                                <a href="user_reservation_table_time.php?type=Table" type="button" class="btn btn-secondary btn-lg mx-auto ">
+                                                                Table
+                                                                <img src="pic\table.png" width="45" height="45" class="d-inline-block align-top" alt="">
+                                                                </a>
 
-                                                                               <a href="user_reservation_venue_form.php" type="button" class="btn btn-secondary btn-lg mx-auto">
-                                                                               Venue      
-                                                                               <img src="pic\venue.png" width="45" height="45" class="d-inline-block align-top" alt="">
-                                                                               </a>
-                                                                    </div>       
-                                                       </div>
+                                                                <a href="user_reservation_venue_form.php?type=Venue" type="button" class="btn btn-secondary btn-lg mx-auto">
+                                                                Venue      
+                                                                <img src="pic\venue.png" width="45" height="45" class="d-inline-block align-top" alt="">
+                                                                </a>
+                                                            </div>       
+                                                        </div>
                                                     </div> 
                                                 </div>
                                             </div>
@@ -121,6 +120,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Content 2 -->
         <div class="container-fluid mt-5" style="background-color: #CF3A24">
             <div class="row">

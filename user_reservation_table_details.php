@@ -32,8 +32,7 @@
 
               <div class="bg-success clearfix">
                   <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>1. TIME ></b></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>2. TABLE</b></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>3. DETAILS</b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>2. DETAILS</b></button>
               </div>
 
               <div class="container mx-auto">
@@ -48,7 +47,7 @@
                             <h5 class="card-title">YOUR RESERVATION IS ALREADY CONFIRMED</h5>
                             <p class="card-text">Please be here on time to avoid cancellation, 10-15 minutes waiting time only.<br/> Thankyou and Godbless!</p>                            
                             <div>
-                            <a href="user_welcome_page_pending_reservation.php" class="btn btn-success ml-auto  mr-7 mb-3 row" style="color: black">OKAY</a>
+                            <a href="user_welcome_page.php" class="btn btn-success ml-auto  mr-7 mb-3 row" style="color: black">OKAY</a>
                             </div>
                         </div>
                      </div>
