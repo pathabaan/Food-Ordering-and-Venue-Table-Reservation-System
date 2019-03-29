@@ -106,22 +106,6 @@
                             <div class="col-sm-6">
                               <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name">
                           </div>
-                    
-                          <div class="form-group">
-                            <div class="col-sm-3">
-                                  <label for="selectGender">Gender</label>
-                                  <select id="selectGender" class="form-control">
-                                  <option selected>Male</option>
-                                  <option>Female</option>
-                                  </select>
-                              </div>
-
-
-                          <div class="form-group">
-                            <div class="col-sm-3">
-                                <label for="inputAddress">Phone Number</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="xxxxxxxxxxx">
-                            </div>
 
                           <div class="form-row">
                             <div class="form-group col-md-3">
