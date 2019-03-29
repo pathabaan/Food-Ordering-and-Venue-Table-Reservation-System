@@ -103,7 +103,7 @@
                                                                                <img src="pic\table.png" width="45" height="45" class="d-inline-block align-top" alt="">
                                                                                </a>
 
-                                                                               <a href="user_reservation_venue_time.php" type="button" class="btn btn-secondary btn-lg mx-auto">
+                                                                               <a href="user_reservation_venue_form.php" type="button" class="btn btn-secondary btn-lg mx-auto">
                                                                                Venue      
                                                                                <img src="pic\venue.png" width="45" height="45" class="d-inline-block align-top" alt="">
                                                                                </a>

@@ -20,7 +20,7 @@
                     <div class="row-sm mx-auto">
                         <h1>
                         <img src="pic\jessuicon.jpg" width="45" height="45" class="d-inline-block align-top" alt="">
-                        FOOD PICK UP
+                        TABLE RESERVATION
                         </h1>
                     </div>
                 </div>

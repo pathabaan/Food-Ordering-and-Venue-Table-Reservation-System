@@ -75,7 +75,7 @@
             <div class="row">
                 <div class="col-sm-3 mb-3">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\chickenpopswithrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 60.00</h5>
                                 <p class="card-text">Chicken Pops with Rice</p>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-sm-3 mb-3">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\chickenskinwithrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 65.00</h5>
                                 <p class="card-text">Chicken Skin with Rice</p>
@@ -95,20 +95,20 @@
                 </div>
                 <div class="col-sm-3 mb-3">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\chickenwithspaghettifriesandrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 85.00</h5>
+                            <p class="card-text">Chicken with Spaghetti, Fries and Rice </p>
                             <a href="#" class="btn btn-danger">Add Order</a>  
                         </div>
                     </div>
                </div>
                <div class="col-sm-3 mb-3">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\2pcchickenwithrice.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 115.00</h5>
+                            <p class="card-text">2 Pieces Chicken with Rice (unlimited gravy)</p>
                             <a href="#" class="btn btn-danger">Add Order</a> 
                         </div>
                     </div>
@@ -120,40 +120,40 @@
             <div class="row">
                 <div class="col-sm-3 mb-3">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\liempowithrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 75.00</h5>
+                               <p class="card-text">Liempo with Rice</p>
                                <a href="#" class="btn btn-danger">Add Order</a>   
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\chickencordonbleuwithrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 65.00</h5>
+                               <p class="card-text">Chicken Cordon Bleu with Rice</p>
                                <a href="#" class="btn btn-danger">Add Order</a>  
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\buffalowingswithrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php. 70.00</h5>
+                            <p class="card-text">Buffalo wings with Rice</p>
                             <a href="#" class="btn btn-danger">Add Order</a> 
                         </div>
                     </div>
                </div>
                <div class="col-sm-3 mb-3">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\bagnetwithrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 80.00</h5>
+                            <p class="card-text">Bagnet with Rice</p>
                             <a href="#" class="btn btn-danger">Add Order</a>
                         </div>
                     </div>
@@ -169,30 +169,30 @@
             <div class="row mx-auto">
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\chickenwithrice.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 60.00</h5>
+                               <p class="card-text">D1. Chicken with Rice</p>     
                                <a href="#" class="btn btn-danger">Add Order</a> 
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\chickenwithspaghetti.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 65.00</h5>
+                               <p class="card-text">D2. Chicken with Spaghetti</p> 
                                <a href="#" class="btn btn-danger">Add Order</a>  
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\chickenwithfries.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 65.00</h5>
+                            <p class="card-text">D3. Chicken with Fries</p>
                             <a href="#" class="btn btn-danger">Add Order</a>
                         </div>
                     </div>
@@ -209,30 +209,30 @@
             <div class="row mx-auto">
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\chickenwithspaghettiandrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 75.00</h5>
+                               <p class="card-text">T1. Chicken with Spaghetti and Rice</p>
                                <a href="#" class="btn btn-danger">Add Order</a>  
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\chickenwithfriesandrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 75.00</h5>
+                               <p class="card-text">T2. Chicken with Fries and Rice</p>
                                <a href="#" class="btn btn-danger">Add Order</a> 
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\chickenwithspaghettiandfries.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 75.00</h5>
+                            <p class="card-text">T3. Chicken with Spaghetti and Fries</p>
                             <a href="#" class="btn btn-danger">Add Order</a>
                         </div>
                     </div>
@@ -249,30 +249,30 @@
             <div class="row mx-auto">
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\sizzlingporksisig.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 70.00</h5>
+                               <p class="card-text">S1. Sizzling Pork Sisig</p>
                                <a href="#" class="btn btn-danger">Add Order</a>    
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\sizzlingtuna.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 75.00</h5>
+                               <p class="card-text">S2. Sizzling Tuna</p>  
                                <a href="#" class="btn btn-danger">Add Order</a> 
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\sizzlingbagnet.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 100.00</h5>
+                            <p class="card-text">S3. Sizzling Bagnet</p>
                             <a href="#" class="btn btn-danger">Add Order</a>
                         </div>
                     </div>
@@ -289,30 +289,30 @@
             <div class="row mx-auto">
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\frenchfries.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 40.00</h5>
+                               <p class="card-text">French Fries</p>
                                <a href="#" class="btn btn-danger">Add Order</a>  
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\spaghetti.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 50.00</h5>
+                               <p class="card-text">Spaghetti</p>
                                <a href="#" class="btn btn-danger">Add Order</a>  
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\chickenskin.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <h5 class="card-title">Php 50.00</h5>
+                            <p class="card-text">Chicken Skin</p>
                             <a href="#" class="btn btn-danger">Add Order</a>
                         </div>
                     </div>
@@ -328,43 +328,35 @@
             <div class="row mx-auto">
                 <div class="col-sm-2 mb-2 mx-auto">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\sprite.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                               <p class="card-text">Sprite (8oz)/(kasalo size)</p>
                                <a href="#" class="btn btn-danger">Add Order</a>   
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-2 mb-2 mx-auto">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\coke.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
+                               <p class="card-text">Coke (8oz)/(kasalo size)</p>
                                <a href="#" class="btn btn-danger">Add Order</a>   
                         </div> 
                     </div>
                 </div>
                 <div class="col-sm-2 mb-2 mx-auto">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                    <img src="menu\royal.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
+                            <p class="card-text">Royal (8oz)/(kasalo size)</p>
                             <a href="#" class="btn btn-danger">Add Order</a>
                         </div>
                     </div>
                </div>
-               <div class="col-sm-2 mb-2 mx-auto">     
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a>
-                        </div>
-                    </div>
+
                </div>
             </div>
 
