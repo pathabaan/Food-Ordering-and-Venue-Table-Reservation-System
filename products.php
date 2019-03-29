@@ -67,7 +67,25 @@
 <div id="wrapper">
     
     <?php include('adminNav.php') ?>
+    
+    <?php 
+        function getProdType($index){
+            if( is_int($index) ){
+                return 'None';
+            }
 
+            $types = [
+                0 => 'None',
+                1 => 'Double',
+                2 => 'Trio',
+                3 => 'Sizzling Meals',
+                4 => 'Ala Carte',
+                5 => 'Beverages',
+            ];
+
+            return $types[$index];
+        }
+    ?>
     <!-- Page Content -->
     <div id="page-wrapper">
         <div class="container-fluid">
@@ -101,6 +119,7 @@
                                             <th>Name</th>
                                             <th>Price</th>
                                             <th>Description</th>
+                                            <th>Type</th>
                                             <th>Actions</th>
                                         </tr>
                                     </thead>
@@ -115,6 +134,7 @@
                                             <td><?= $row['prod_name']?></td>
                                             <td><?= $row['prod_price']?></td>
                                             <td><?= $row['prod_desc']?></td>
+                                            <td><?= getProdType($row['prod_type'])?></td>
                                             <td>
                                                 <div class="btn-group" role="group" aria-label="Basic example">
                                                     <!-- change button to button to anchor tags -->

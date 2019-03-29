@@ -16,22 +16,21 @@
     </head>
     <body style="background-color: #D2D7D3">
         <div class="container mt-2 mb-2 p-3">
-                <div class="row text-center">
-                    <div class="row-sm mx-auto">
-                        <h1>
+            <div class="row text-center">
+                <div class="row-sm mx-auto">
+                    <h1>
                         <img src="pic\jessuicon.jpg" width="45" height="45" class="d-inline-block align-top" alt="">
                         FOOD PICK UP
-                        </h1>
-                            <div class=" row p-3 mb-7 bg-info text-dark mx-auto border border-dark" style="width: 23rem;">
-                             AT 12:00 PM <br/>
-                             NOTICE: ONLY 10-15 MINUTES WAITING TIME <br/>
-                             THE ORDER WILL BE AUTOMATICALLY CANCEL
-                            </div>
+                    </h1>
+                    <div class=" row p-3 mb-7 bg-info text-dark mx-auto border border-dark" style="width: 23rem;">
+                        AT 12:00 PM <br/>
+                        NOTICE: ONLY 10-15 MINUTES WAITING TIME <br/>
+                        THE ORDER WILL BE AUTOMATICALLY CANCEL
                     </div>
                 </div>
+            </div>
         </div>
 
-  
         <!-- Content 1 -->
         <div class="container-fluid mt-5" style="background-color: #CF3A24">
             <div class="row">
@@ -70,332 +69,179 @@
             </div>
         </div>
 
-       <div class="container mt-5 mb-5" style="background-color: #FFA07A">   
-        <!-- 3 Column with Picture -->
-          <div class="container mx-auto">
-            <div class="jumbotrons">
-                <h1 class="display-4">WHAT WOULD YOU LIKE FOR TODAY?</h1>
-                <hr class="my-4">
-            </div>
+        <div class="container my-5 py-3" style="background-color: #FFA07A">   
             <div class="row">
-                <div class="col-sm-3 mb-3">    
-                    <div class="card">
-                        <img src="menu\chickenpopswithrice.jpg"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Php 60.00</h5>
-                                <p class="card-text">Chicken Pops with Rice</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>  
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">    
-                    <div class="card">
-                        <img src="menu\chickenskinwithrice.jpg"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Php 65.00</h5>
-                                <p class="card-text">Chicken Skin with Rice</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>   
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">     
-                    <div class="card">
-                        <img src=""class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a>  
+                <?php 
+                    include('conn.php');
+                    $query = "SELECT * FROM product_tbl WHERE prod_type = 0";
+                    $result = mysqli_query($con, $query);
+                    if (mysqli_num_rows($result) > 0):
+                        while($row = mysqli_fetch_array($result)):
+                ?>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img-top" src="<?= $row['prod_image']?>" />
+                            <div class="card-body">
+                                <h5 class="card-title"><?= $row['prod_name']?>(<?= $row['prod_code']?>) - ₱<?= $row['prod_price']?></h5>
+                                <p class="card-text"><?= $row['prod_desc']?></p>
+                                <button type="button" class="btn btn-primary">Add to Order</button>
+                            </div>
                         </div>
                     </div>
-               </div>
-               <div class="col-sm-3 mb-3">     
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a> 
-                        </div>
-                    </div>
-               </div>
+                        <?php endwhile;?>
+                    <?php else:?>
+                    <span class="pl-3">No menu here.</span>
+                    <?php endif;?>
             </div>
 
-           <!-- 4 Column with Picture -->
-          <div class="container mx-auto">
+            <br/>
+            <h1>Double</h1>
             <div class="row">
-                <div class="col-sm-3 mb-3">    
+                <?php 
+                    include('conn.php');
+                    $query = "SELECT * FROM product_tbl WHERE prod_type = 1";
+                    $result = mysqli_query($con, $query);
+                    if (mysqli_num_rows($result) > 0):
+                        while($row = mysqli_fetch_array($result)):
+                ?>
+                <div class="col-sm-4">
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <img class="card-img-top" src="<?= $row['prod_image']?>" />
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>   
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">    
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>  
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3">     
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a> 
+                            <h5 class="card-title"><?= $row['prod_name']?>(<?= $row['prod_code']?>) - ₱<?= $row['prod_price']?></h5>
+                            <p class="card-text"><?= $row['prod_desc']?></p>
+                            <button type="button" class="btn btn-primary">Add to Order</button>
                         </div>
                     </div>
-               </div>
-               <div class="col-sm-3 mb-3">     
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a>
-                        </div>
-                    </div>
-               </div>
+                </div>
+                    <?php endwhile;?>
+                <?php else:?>
+                <span class="pl-3">No menu here.</span>
+                <?php endif;?>
             </div>
 
-            <!-- 5 Column with Picture -->
-          <div class="container mx-auto">
-            <div class="jumbotrons">
-                <h1 class="display-4">DOUBLE:</h1>
-                <hr class="my-4">
-            </div>
-            <div class="row mx-auto">
-                <div class="col-sm-3 mb-3 mx-auto">    
+            <br/>
+            <h1>Trio</h1>
+            <div class="row">
+                <?php 
+                    include('conn.php');
+                    $query = "SELECT * FROM product_tbl WHERE prod_type = 2";
+                    $result = mysqli_query($con, $query);
+                    if (mysqli_num_rows($result) > 0):
+                        while($row = mysqli_fetch_array($result)):
+                ?>
+                <div class="col-sm-4">
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <img class="card-img-top" src="<?= $row['prod_image']?>" />
                         <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a> 
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3 mx-auto">    
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>  
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3 mx-auto">     
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a>
+                            <h5 class="card-title"><?= $row['prod_name']?>(<?= $row['prod_code']?>) - ₱<?= $row['prod_price']?></h5>
+                            <p class="card-text"><?= $row['prod_desc']?></p>
+                            <button type="button" class="btn btn-primary">Add to Order</button>
                         </div>
                     </div>
-               </div>
-             </div>
-        
-             
-            <!-- 6 Column with Picture -->
-          <div class="container mx-auto">
-            <div class="jumbotrons">
-                <h1 class="display-4">TRIO:</h1>
-                <hr class="my-4">
-            </div>
-            <div class="row mx-auto">
-                <div class="col-sm-3 mb-3 mx-auto">    
-                    <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>  
-                        </div> 
-                    </div>
                 </div>
-                <div class="col-sm-3 mb-3 mx-auto">    
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a> 
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3 mx-auto">     
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a>
-                        </div>
-                    </div>
-               </div>
-             </div>
-
-             
-            <!-- 7 Column with Picture -->
-          <div class="container mx-auto">
-            <div class="jumbotrons">
-                <h1 class="display-4">SIZZLING MEALS:</h1>
-                <hr class="my-4">
-            </div>
-            <div class="row mx-auto">
-                <div class="col-sm-3 mb-3 mx-auto">    
-                    <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>    
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3 mx-auto">    
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a> 
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3 mx-auto">     
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a>
-                        </div>
-                    </div>
-               </div>
-             </div>
-
-             
-            <!-- 8 Column with Picture -->
-          <div class="container mx-auto">
-            <div class="jumbotrons">
-                <h1 class="display-4">ALA CARTE:</h1>
-                <hr class="my-4">
-            </div>
-            <div class="row mx-auto">
-                <div class="col-sm-3 mb-3 mx-auto">    
-                    <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>  
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3 mx-auto">    
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>  
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-3 mb-3 mx-auto">     
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a>
-                        </div>
-                    </div>
-               </div>
-             </div>
-
-              <!-- 9 Column with Picture -->
-          <div class="container mx-auto">
-            <div class="jumbotrons">
-                <h1 class="display-4">BEVERAGES:</h1>
-                <hr class="my-4">
-            </div>
-            <div class="row mx-auto">
-                <div class="col-sm-2 mb-2 mx-auto">    
-                    <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>   
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-2 mb-2 mx-auto">    
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                               <p class="card-text">Rice with chicken and fries</p>
-                               <a href="#" class="btn btn-danger">Add Order</a>   
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-sm-2 mb-2 mx-auto">     
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a>
-                        </div>
-                    </div>
-               </div>
-               <div class="col-sm-2 mb-2 mx-auto">     
-                    <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">MEAL B</h5>
-                            <p class="card-text">Rice with chicken and fries</p>
-                            <a href="#" class="btn btn-danger">Add Order</a>
-                        </div>
-                    </div>
-               </div>
+                    <?php endwhile;?>
+                <?php else:?>
+                <span class="pl-3">No menu here.</span>
+                <?php endif;?>
             </div>
 
+            <br/>
+            <h1>Sizzling Meals</h1>
+            <div class="row">
+                <?php 
+                    include('conn.php');
+                    $query = "SELECT * FROM product_tbl WHERE prod_type = 3";
+                    $result = mysqli_query($con, $query);
+                    if (mysqli_num_rows($result) > 0):
+                        while($row = mysqli_fetch_array($result)):
+                ?>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="<?= $row['prod_image']?>" />
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $row['prod_name']?>(<?= $row['prod_code']?>) - ₱<?= $row['prod_price']?></h5>
+                            <p class="card-text"><?= $row['prod_desc']?></p>
+                            <button type="button" class="btn btn-primary">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+                    <?php endwhile;?>
+                <?php else:?>
+                <span class="pl-3">No menu here.</span>
+                <?php endif;?>
+            </div>
+
+            <br/>
+            <h1>Ala Carte</h1>
+            <div class="row">
+                <?php 
+                    include('conn.php');
+                    $query = "SELECT * FROM product_tbl WHERE prod_type = 4";
+                    $result = mysqli_query($con, $query);
+                    if (mysqli_num_rows($result) > 0):
+                        while($row = mysqli_fetch_array($result)):
+                ?>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="<?= $row['prod_image']?>" />
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $row['prod_name']?>(<?= $row['prod_code']?>) - ₱<?= $row['prod_price']?></h5>
+                            <p class="card-text"><?= $row['prod_desc']?></p>
+                            <button type="button" class="btn btn-primary">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+                    <?php endwhile;?>
+                <?php else:?>
+                <span class="pl-3">No menu here.</span>
+                <?php endif;?>
+            </div>
+
+            <br/>
+            <h1>Beverages</h1>
+            <div class="row">
+                <?php 
+                    include('conn.php');
+                    $query = "SELECT * FROM product_tbl WHERE prod_type = 5";
+                    $result = mysqli_query($con, $query);
+                    if (mysqli_num_rows($result) > 0):
+                        while($row = mysqli_fetch_array($result)):
+                ?>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="<?= $row['prod_image']?>" />
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $row['prod_name']?>(<?= $row['prod_code']?>) - ₱<?= $row['prod_price']?></h5>
+                            <p class="card-text"><?= $row['prod_desc']?></p>
+                            <button type="button" class="btn btn-primary">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+                    <?php endwhile;?>
+                <?php else:?>
+                <span class="pl-3">No menu here.</span>
+                <?php endif;?>
+            </div>
             
-              <!-- 10 Column with Picture -->
             <div class="container mx-auto">
                 <div class="jumbotrons">
-                    <hr class="my-4">
-                 <h1 class="display-4 row">THAT'S ALL MY ORDER</h1>
+                    <hr>
+                    <center>
+                    <h1 class="display-4">THAT'S ALL MY ORDER</h1>
+                    </center>
                 </div>
 
                 <div class="row">
-                   <a href="user_welcome_page.php" class="btn btn-dark ml-auto row" style="color: black">BACK</a>
-                   <a href="user_pickup_checkout_details.php" class="btn btn-warning ml-auto row" style="color: black">Check Out</a>
+                    <div class="mx-auto">
+                        <a href="user_welcome_page.php" class="btn btn-dark">BACK</a>&emsp;
+                        <a href="user_pickup_checkout_details.php" class="btn btn-warning">Check Out</a>
+                    </div>
                 </div>
             </div>
-
-            <div class="container mx-auto">
-                <div class="jumbotrons">
-                    <hr class="my-4">
-                 <h1 class="display-4 row"></h1>
-                </div>
-
-            </div>
-         </div>
-
         </div>
+
+        
+
     </body>
 </html> 
