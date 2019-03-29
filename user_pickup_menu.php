@@ -80,7 +80,7 @@
             <div class="row">
                 <div class="col-sm-3 mb-3">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\chickenpopswithrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 60.00</h5>
                                 <p class="card-text">Chicken Pops with Rice</p>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-sm-3 mb-3">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\chickenskinwithrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 65.00</h5>
                                 <p class="card-text">Chicken Skin with Rice</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-sm-3 mb-3">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src=""class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
                             <p class="card-text">Rice with chicken and fries</p>

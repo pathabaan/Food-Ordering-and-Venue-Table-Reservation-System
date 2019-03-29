@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-sm-3 mb-3">     
                     <div class="card">
-                        <img src="menu\chickenwithspaghettifriesandrice.jpg"class="card-img-top mx-auto" alt="...">
+                        <img src=""class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 85.00</h5>
                             <p class="card-text">Chicken with Spaghetti, Fries and Rice </p>
@@ -239,7 +239,7 @@
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\spaghetti.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 50.00</h5>
                                <p class="card-text">Spaghetti</p>
@@ -249,7 +249,7 @@
                 </div>
                 <div class="col-sm-3 mb-3 mx-auto">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\chickenskin.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 50.00</h5>
                             <p class="card-text">Chicken Skin</p>
@@ -268,7 +268,7 @@
             <div class="row mx-auto">
                 <div class="col-sm-2 mb-2 mx-auto">    
                     <div class="card">
-                        <img src="img6.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\sprite.png"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
                                <p class="card-text">Sprite (8oz)/(kasalo size)</p>
@@ -278,7 +278,7 @@
                 </div>
                 <div class="col-sm-2 mb-2 mx-auto">    
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\coke.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
                                <p class="card-text">Coke (8oz)/(kasalo size)</p>
@@ -288,7 +288,7 @@
                 </div>
                 <div class="col-sm-2 mb-2 mx-auto">     
                     <div class="card">
-                        <img src="img5.png"class="card-img-top mx-auto" alt="...">
+                        <img src="menu\royal.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">MEAL B</h5>
                             <p class="card-text">Royal (8oz)/(kasalo size)</p>
