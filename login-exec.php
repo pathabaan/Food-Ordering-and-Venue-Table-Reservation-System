@@ -30,7 +30,7 @@
                 $_SESSION['USER_ROLE'] = $row['role'] == 1 ? 'admin' : 'user';
             }
             //redirect to user.php
-            if($row['role'] == 1){
+            if($_SESSION['USER_ROLE']){
                 header('location: admin.php');
             }else{
                 header("location: user_welcome_page.php");
