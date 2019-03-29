@@ -32,9 +32,7 @@
 
               <div class="bg-success clearfix">
               <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>1. FORM ></b></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>2. MENU ></b></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>3. DETAILS</b></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>3. PAYMENT</b></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>2. DETAILS</b></button>
               </div>
 
               <div class="container mx-auto">
@@ -43,13 +41,12 @@
                         <h2>RESERVATION DETAILS</h2>
                         <div class="card">
                         <div class="card-header">
-                        PAYMENT
+                        DETAILS
                         </div>
                             <div class="card-body">
                                 <h5 class="card-title">VENUE RESERVATION</h5>
                                 <p class="card-text">Please come here at our store 3 days before your reservation date to settle your downpayment for your reservation, failed to attend within the specified date means automatic cancellation of your reservation</p>
-                                <a href="user_reservation_venue_details.php" class="btn btn-dark row mr-5">BACK</a>
-                                <a href="user_welcome_page_pending_reservation.php" class="btn btn-success row mr-5">OKAY</a>
+                                <a href="user_welcome_page.php" class="btn btn-success row mr-5">OKAY</a>
                           </div>
                         </div>
                    </div>

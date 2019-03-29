@@ -16,65 +16,43 @@
     </head>
     <body style="background-color: #D2D7D3">
         <div class="container mt-2 mb-2 p-3">
-                <div class="row text-center">
-                    <div class="row-sm mx-auto">
-                        <h1>
-                        <img src="pic\jessuicon.jpg" width="45" height="45" class="d-inline-block align-top" alt="">
-                        VENUE RESERVATION
-                        </h1>
-                    </div>
+            <div class="row text-center">
+                <div class="row-sm mx-auto">
+                    <h1>
+                    <img src="pic\jessuicon.jpg" width="45" height="45" class="d-inline-block align-top" alt="">
+                    VENUE RESERVATION
+                    </h1>
                 </div>
-        </div>
-
-      <!-- Content -->
-        <div class="card mx-auto" style="width: 49rem; background-color: #FFA07A">
-            <div class="card-body">
-
-              <div class="bg-success clearfix">
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>1. FORM ></b></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>2. MENU ></b></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>3. DETAILS</b></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>3. PAYMENT</b></button>
-              </div>
-
-              <div class="container mx-auto">
-                  <div class="jumbotrons">
-                   <hr class="my-4">
-                       <form>
-                            <div class="form-group row">
-                                <label for="colFormLabel" class="col-sm-2 col-form-label">Date</label>
-                                <div class="col-sm-10">
-                                <input type="email" class="form-control" id="colFormLabel" placeholder="MM-DD-YY">
-                                </div>
-                            </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="colFormLabel" class="col-sm-2 col-form-label">Time</label>
-                                <div class="col-sm-10">
-                                <input type="email" class="form-control" id="colFormLabel" placeholder=AM/PM">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="colFormLabel" class="col-sm-2 col-form-label">No. of guest</label>
-                                <div class="col-sm-10">
-                                <input type="email" class="form-control" id="colFormLabel" placeholder="maximum of 25 person">
-                                </div>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-
-                    <div class="row">
-                      <a href="user_welcome_page.php" class="btn btn-dark ml-auto  mr-4 mb-3 row" style="color: black">BACK</a>
-                      <a href="user_reservation_venue_menu.php" class="btn btn-success ml-auto  mr-4 mb-3 row" style="color: black">NEXT</a>
-                    </div>
-             </div>
             </div>
         </div>
 
-
-
+        <!-- Content -->
+        <div class="card mx-auto" style="width: 49rem; background-color: #FFA07A">
+            <div class="card-body">
+                <div class="bg-success clearfix">
+                    <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>1. FORM ></b></button>
+                    <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>2. PAYMENT</b></button>
+                </div>
+                <?php $type = $_GET['type']?>
+                <div class="container mx-auto">
+                    <form action="reserve-exec.php?type=<?= $type?>" method="POST">
+                        <div class="jumbotrons">
+                            <hr class="my-4">
+                            <div class="form-group row">
+                                <label for="colFormLabel" class="col-sm-2 col-form-label" >Date</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="colFormLabel" placeholder="MM-DD-YY" name="date">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="user_welcome_page.php" class="btn btn-dark ml-auto  mr-4 mb-3 row" style="color: black">BACK</a>
+                            <button type="submit" class="btn btn-success ml-auto  mr-4 mb-3 row" style="color: black">NEXT</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
         <!-- Content 1 -->
         <div class="container-fluid mt-5" style="background-color: #CF3A24">
@@ -88,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-sm text-center">
-                <div class="card" style="width: 18rem; background-color: #CF3A24; border: none">
+                    <div class="card" style="width: 18rem; background-color: #CF3A24; border: none">
                         <img src="img5.png" class="card-img-top mx-auto" alt="..." style="width: 10rem;">
                         <div class="card-body">
                             <h5 class="card-title" style="color: white">Chicken</h5>
@@ -114,14 +92,12 @@
             </div>
         </div>
         
-      
-            <div class="container mx-auto">
-                <div class="jumbotrons" style="background-color: #D2D7D3">
-                    <hr class="my-4">
-                 <h1 class="display-4 row"></h1>
-                </div>
+        <div class="container mx-auto">
+            <div class="jumbotrons" style="background-color: #D2D7D3">
+                <hr class="my-4">
+                <h1 class="display-4 row"></h1>
             </div>
-        
         </div>
+        
     </body>
 </html> 
