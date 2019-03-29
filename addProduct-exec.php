@@ -6,6 +6,7 @@ session_start();
 include('conn.php');
 
 $code = $_POST['code'];
+$type = $_POST['type'];
 $name = $_POST['name'];
 $price = $_POST['price'];
 $desc = $_POST['desc'];
@@ -54,7 +55,7 @@ if(!empty($_FILES["image"]["name"])){
 }else{
     // if no image given, use the img5.png
     $image = 'img5.png';
-    $query = "INSERT INTO product_tbl (prod_code, prod_name, prod_price, prod_desc, prod_image) VALUES ('$code', '$name', '$price', '$desc', '$image')";
+    $query = "INSERT INTO product_tbl (prod_code, prod_name, prod_price, prod_desc, prod_image, prod_type) VALUES ('$code', '$name', '$price', '$desc', '$image', '$type')";
     $result = mysqli_query($con, $query);
 
     // check if result is successful

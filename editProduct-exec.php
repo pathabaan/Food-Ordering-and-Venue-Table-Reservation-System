@@ -7,6 +7,7 @@ include('conn.php');
 
 $id = $_POST['id'];
 $code = $_POST['code'];
+$type = $_POST['type'];
 $name = $_POST['name'];
 $price = $_POST['price'];
 $desc = $_POST['desc'];
@@ -39,7 +40,7 @@ if(!empty($_FILES["image"]["name"])){
         $image = "uploads/".$file_name;
         move_uploaded_file($file_tmp, $image);
         // then insert the product in db
-        $query = "UPDATE product_tbl SET prod_code='".$code."', prod_name='".$name."', prod_price='".$price."', prod_desc='".$desc."', prod_image='".$image."' WHERE prod_id = ".$id;
+        $query = "UPDATE product_tbl SET prod_code='".$code."', prod_name='".$name."', prod_price='".$price."', prod_desc='".$desc."', prod_image='".$image."', prod_type='".$type."' WHERE prod_id = ".$id;
         $result = mysqli_query($con, $query);
 
         // check if result is successful
@@ -54,7 +55,7 @@ if(!empty($_FILES["image"]["name"])){
         print_r($errors);
     }
 }else{
-    $query = "UPDATE product_tbl SET prod_code='".$code."', prod_name='".$name."', prod_price='".$price."', prod_desc='".$desc."' WHERE prod_id = ".$id;
+    $query = "UPDATE product_tbl SET prod_code='".$code."', prod_name='".$name."', prod_price='".$price."', prod_desc='".$desc."', prod_type='".$type."' WHERE prod_id = ".$id;
     $result = mysqli_query($con, $query);
 
     // check if result is successful

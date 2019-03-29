@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.7.7
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 29, 2019 at 05:45 PM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 7.3.0
+-- Generation Time: Mar 29, 2019 at 06:12 PM
+-- Server version: 5.7.24
+-- PHP Version: 7.2.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -48,15 +48,16 @@ CREATE TABLE `product_tbl` (
   `prod_name` varchar(255) NOT NULL,
   `prod_price` int(11) NOT NULL,
   `prod_desc` varchar(255) NOT NULL,
-  `prod_image` varchar(255) NOT NULL
+  `prod_image` varchar(255) NOT NULL,
+  `prod_type` varchar(255) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `product_tbl`
 --
 
-INSERT INTO `product_tbl` (`prod_id`, `prod_code`, `prod_name`, `prod_price`, `prod_desc`, `prod_image`) VALUES
-(3, 'C1', 'Chicken', 454, 'asdhsakdsadja', 'uploads/img2.jpg');
+INSERT INTO `product_tbl` (`prod_id`, `prod_code`, `prod_name`, `prod_price`, `prod_desc`, `prod_image`, `prod_type`) VALUES
+(3, 'C1', 'Chicken', 454, 'asdhsakdsadja', 'uploads/img2.jpg', '1');
 
 -- --------------------------------------------------------
 
@@ -116,7 +117,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `fname`, `mname`, `lname`, `username`, `password`, `role`) VALUES
-(1, 'Jane', 'Doe', 'Smith', 'user', '12dea96fec20593566ab75692c9949596833adc9', 0);
+(1, 'Jane', 'Doe', 'Smith', 'user', '12dea96fec20593566ab75692c9949596833adc9', 0),
+(2, 'Jan', 'Dela', 'Cruz', 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 1);
 
 --
 -- Indexes for dumped tables
@@ -184,7 +186,7 @@ ALTER TABLE `table_tbl`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

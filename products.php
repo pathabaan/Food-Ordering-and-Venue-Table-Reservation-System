@@ -157,13 +157,13 @@
                                                                 <div class="col-xs-6">
                                                                     <div class="form-group">
                                                                         <label>Type</label>
-                                                                        <select name="type">
-                                                                            <option value="0" <?= $row['prod_type'] === 0 ? 'selected' : ''?> >None</option>
-                                                                            <option value="1" <?= $row['prod_type'] === 1 ? 'selected' : ''?> >Double</option>
-                                                                            <option value="2" <?= $row['prod_type'] === 2 ? 'selected' : ''?> >Trio</option>
-                                                                            <option value="3" <?= $row['prod_type'] === 3 ? 'selected' : ''?> >Sizzling Meals</option>
-                                                                            <option value="4" <?= $row['prod_type'] === 4 ? 'selected' : ''?> >Ala Carte</option>
-                                                                            <option value="5" <?= $row['prod_type'] === 5 ? 'selected' : ''?> >Beverages</option>
+                                                                        <select name="type" class="form-control">
+                                                                            <option value="0" <?= $row['prod_type'] == 0 ? 'selected' : ''?> >None</option>
+                                                                            <option value="1" <?= $row['prod_type'] == 1 ? 'selected' : ''?> >Double</option>
+                                                                            <option value="2" <?= $row['prod_type'] == 2 ? 'selected' : ''?> >Trio</option>
+                                                                            <option value="3" <?= $row['prod_type'] == 3 ? 'selected' : ''?> >Sizzling Meals</option>
+                                                                            <option value="4" <?= $row['prod_type'] == 4 ? 'selected' : ''?> >Ala Carte</option>
+                                                                            <option value="5" <?= $row['prod_type'] == 5 ? 'selected' : ''?> >Beverages</option>
                                                                         </select>
                                                                     </div>
                                                                 </div>
@@ -243,7 +243,7 @@
                         <div class="col-xs-6">
                             <div class="form-group">
                                 <label>Type</label>
-                                <select name="type">
+                                <select name="type" class="form-control">
                                     <option value="0">None</option>
                                     <option value="1">Double</option>
                                     <option value="2">Trio</option>

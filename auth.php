@@ -9,10 +9,4 @@
   if ( !$_SESSION['LOGGED_IN'] ) {
       header("location: user.php");
       exit();
-  }else{
-    if( $_SESSION['USER_ROLE'] == 'admin'){
-      // admin are not allowed here. Go back to login page.
-      header("location: user.php");
-      exit();
-    }
   }
