@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 29, 2019 at 08:23 PM
+-- Generation Time: Mar 29, 2019 at 08:50 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -91,7 +91,7 @@ CREATE TABLE `table_tbl` (
 --
 
 INSERT INTO `table_tbl` (`table_id`, `table_name`, `table_seat`, `table_status`) VALUES
-(22, 'TB4', 4, 'Available');
+(22, 'TB4', 4, 'Reserved');
 
 -- --------------------------------------------------------
 
@@ -116,6 +116,18 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`id`, `fname`, `mname`, `lname`, `username`, `password`, `role`) VALUES
 (1, 'Jane', 'Doe', 'Smith', 'user', '12dea96fec20593566ab75692c9949596833adc9', 0),
 (2, 'Jan', 'Dela', 'Cruz', 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `venue_tbl`
+--
+
+CREATE TABLE `venue_tbl` (
+  `user_id` int(11) NOT NULL,
+  `reserve_id` int(11) NOT NULL,
+  `venue_date` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables
