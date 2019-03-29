@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.7.7
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 29, 2019 at 08:50 PM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 7.3.0
+-- Generation Time: Mar 29, 2019 at 09:02 PM
+-- Server version: 5.7.24
+-- PHP Version: 7.2.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -31,7 +31,6 @@ SET time_zone = "+00:00";
 CREATE TABLE `order_tbl` (
   `order_id` int(11) NOT NULL,
   `order_time` time NOT NULL,
-  `order_date` date NOT NULL,
   `order_tamount` double NOT NULL,
   `order_passcode` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -70,7 +69,8 @@ CREATE TABLE `reserve_tbl` (
   `reserve_time` time NOT NULL,
   `reserve_type` varchar(255) NOT NULL,
   `user_id` int(11) NOT NULL,
-  `table_id` int(11) NOT NULL
+  `table_id` int(11) NOT NULL,
+  `venue_date` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
