@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.8.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 29, 2019 at 06:12 PM
--- Server version: 5.7.24
--- PHP Version: 7.2.2
+-- Generation Time: Mar 29, 2019 at 08:23 PM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 7.3.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -68,8 +68,9 @@ INSERT INTO `product_tbl` (`prod_id`, `prod_code`, `prod_name`, `prod_price`, `p
 CREATE TABLE `reserve_tbl` (
   `reserve_id` int(11) NOT NULL,
   `reserve_time` time NOT NULL,
-  `reserve_date` date NOT NULL,
-  `reserve_type` varchar(255) NOT NULL
+  `reserve_type` varchar(255) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `table_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -90,11 +91,7 @@ CREATE TABLE `table_tbl` (
 --
 
 INSERT INTO `table_tbl` (`table_id`, `table_name`, `table_seat`, `table_status`) VALUES
-(19, 'TB1', 4, 'Available'),
-(20, 'TB2', 4, 'Available'),
-(21, 'TB3', 4, 'Available'),
-(22, 'TB4', 4, 'Available'),
-(23, 'TB5', 1, 'Available');
+(22, 'TB4', 4, 'Available');
 
 -- --------------------------------------------------------
 

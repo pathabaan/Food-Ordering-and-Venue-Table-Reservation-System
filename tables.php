@@ -118,11 +118,46 @@
                                                 <td><?=$row['table_status']?></td>
                                                 <td>
                                                     
-                                                    <button type="button" class="btn btn-success btn-circle"><i class="fa fa-pencil"></i></button>
-                                                    <button type="button" class="btn btn-danger btn-circle" ><i class="fa fa-trash-o"></i></button>
+                                                    <button type="button" class="btn btn-success btn-circle" data-toggle="modal" data-target="#editTable<?= $row['table_id']?>"><i class="fa fa-pencil"></i></button>
+                                                    <a href="delete_table.php?id=<?= $row['table_id']?>" class="btn btn-danger btn-circle" ><i class="fa fa-trash-o"></i></button>
                                                     
                                                 </td>
                                             </tr>
+                                            <!-- Edit Modal -->
+                                            <div class="modal fade" id="editTable<?= $row['table_id']?>" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <form action="editTable-exec.php" method="post">
+                                                <input type="hidden" name="id" value="<?= $row['table_id']?>"/>
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Add Table</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="form-group">
+                                                            <label for="title">Table Name</label>
+                                                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Table Name value=" value="<?= $row['table_name']?>">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="title">Number of Seats</label>
+                                                            <input type="number" class="form-control" id="seat" name="seat" placeholder="Enter Number of Seats" value="<?= $row['table_seat']?>">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="title">Availability of the Seat</label>
+                                                            <input type="text" class="form-control" id="status" name="status" placeholder="Enter Number of Seats" value="<?= $row['table_status']?>"> 
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                            <!-- /.modal-content -->
                                             <?php 
                                                 endwhile;
                                             ?>
