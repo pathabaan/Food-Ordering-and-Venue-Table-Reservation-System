@@ -65,95 +65,8 @@
 <body>
 
 <div id="wrapper">
-    <?php include('auth.php')?>
     
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Jessu's Cuisine</a>
-        </div>
-
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-
-        <!-- Top Navigation: Right Menu -->
-        <ul class="nav navbar-right navbar-top-links">
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                    <i class="fa fa-user fa-fw"></i> Lou Gonzales <b class="caret"></b>
-                </a>
-                <ul class="dropdown-menu dropdown-user">
-                    <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li><a href="logout-exec.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-        <!-- Sidebar -->
-        <div class="navbar-default sidebar" role="navigation">
-            <div class="sidebar-nav navbar-collapse">
-
-                <ul class="nav" id="side-menu">
-                    <li class="sidebar-search">
-                        <div class="input-group custom-search-form">
-                            <input type="text" class="form-control" placeholder="Search...">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-primary" type="button">
-                                        <i class="fa fa-search"></i>
-                                    </button>
-                                </span>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="admin.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-sitemap fa-fw"></i> Maintenance<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="tables.php">Tables</a>
-                            </li>
-                            <li>
-                                <a href="products.php">Products</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-table fa-fw"></i> Transactions<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="#">Orders</a>
-                            </li>
-                            <li>
-                                <a href="#">Table Reseration</a>
-                            </li>
-                            <li>
-                                <a href="#">Venue Reseration</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-file fa-fw"></i> Reports<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="#">Menu Reports</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
+    <?php include('adminNav.php') ?>
 
     <!-- Page Content -->
     <div id="page-wrapper">
@@ -221,22 +134,37 @@
                                                         <div class="modal-body">
                                                             <div class="row">
                                                                 <input type="hidden" name="id" value="<?= $row['prod_id']?>"/>
-                                                                <div class="col-xs-4">
+                                                                <div class="col-xs-6">
                                                                     <div class="form-group">
                                                                         <label>Code</label>
                                                                         <input type="text" class="form-control" id="code" name="code" placeholder="Enter Code" value="<?= $row['prod_code']?>">
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xs-4">
+                                                                <div class="col-xs-6">
                                                                     <div class="form-group">
                                                                         <label>Name</label>
                                                                         <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name" value="<?= $row['prod_name']?>">
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-xs-4">
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-xs-6">
                                                                     <div class="form-group">
                                                                         <label>Price</label>
                                                                         <input type="number" class="form-control" id="name" name="price" placeholder="Enter Price" value="<?= $row['prod_price']?>">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xs-6">
+                                                                    <div class="form-group">
+                                                                        <label>Type</label>
+                                                                        <select name="type">
+                                                                            <option value="0" <?= $row['prod_type'] === 0 ? 'selected' : ''?> >None</option>
+                                                                            <option value="1" <?= $row['prod_type'] === 1 ? 'selected' : ''?> >Double</option>
+                                                                            <option value="2" <?= $row['prod_type'] === 2 ? 'selected' : ''?> >Trio</option>
+                                                                            <option value="3" <?= $row['prod_type'] === 3 ? 'selected' : ''?> >Sizzling Meals</option>
+                                                                            <option value="4" <?= $row['prod_type'] === 4 ? 'selected' : ''?> >Ala Carte</option>
+                                                                            <option value="5" <?= $row['prod_type'] === 5 ? 'selected' : ''?> >Beverages</option>
+                                                                        </select>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -292,22 +220,37 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-xs-4">
+                        <div class="col-xs-6">
                             <div class="form-group">
                                 <label>Code</label>
                                 <input type="text" class="form-control" id="code" name="code" placeholder="Enter Code">
                             </div>
                         </div>
-                        <div class="col-xs-4">
+                        <div class="col-xs-6">
                             <div class="form-group">
                                 <label>Name</label>
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name">
                             </div>
                         </div>
-                        <div class="col-xs-4">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
                             <div class="form-group">
                                 <label>Price</label>
                                 <input type="number" class="form-control" id="name" name="price" placeholder="Enter Price">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <label>Type</label>
+                                <select name="type">
+                                    <option value="0">None</option>
+                                    <option value="1">Double</option>
+                                    <option value="2">Trio</option>
+                                    <option value="3">Sizzling Meals</option>
+                                    <option value="4">Ala Carte</option>
+                                    <option value="5">Beverages</option>
+                                </select>
                             </div>
                         </div>
                     </div>
