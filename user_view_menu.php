@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-sm-3 mb-3">     
                     <div class="card">
-                        <img src=""class="card-img-top mx-auto" alt="...">
+                        <img src="menu\chickenwithspaghettifriesandrice.jpg"class="card-img-top mx-auto" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Php 85.00</h5>
                             <p class="card-text">Chicken with Spaghetti, Fries and Rice </p>

@@ -107,8 +107,7 @@
                                                                                Venue      
                                                                                <img src="pic\venue.png" width="45" height="45" class="d-inline-block align-top" alt="">
                                                                                </a>
-                                                                    </div>
-                                                                    <a class="btn btn-danger mb-2 mt-3" href="user_reservation.php" role="button" aria-pressed="true">CONFIRM</a>           
+                                                                    </div>       
                                                        </div>
                                                     </div> 
                                                 </div>
