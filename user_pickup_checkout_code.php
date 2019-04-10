@@ -38,7 +38,7 @@
               <div class="bg-success clearfix">
                 
                   <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled>1. DETAILS ></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4">2. RECEIPT</button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4">2. REFERENCE NO.</button>
               </div>
 
               <div class="container mx-auto">
@@ -50,12 +50,11 @@
                         PICK UP YOUR ORDER AT 12:00PM
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">RECEIPT</h5>
-                            <p class="card-text">Please print the receipt and give it to our cashier once you are already here in our store.<br/> Thankyou and Godbless!</p>                            
+                            <h5 class="card-title">ORDER REFERENCE NO.</h5>
+                            <p class="card-text">Please save the order reference no and give it to our cashier once you are already here in our store. Thankyou and Godbless!</p>                            
                             <div>
                             <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
-                            <img src="pic\print.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                            PRINT RECEIPT
+                                OKAY
                             </button>
                              <!-- Modal -->
                             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

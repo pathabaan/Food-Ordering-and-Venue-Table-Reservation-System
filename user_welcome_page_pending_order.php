@@ -116,17 +116,5 @@
                 <a href="user_view_menu.php" class="btn btn-dark ml-auto" style="color: white">View Menu</a>
             </div>
         </div>
-        <!-- Content 3 -->
-        <div class="container p-5">
-            <div class="row text-center">
-                <div class="col-sm">
-                    <h1>Food Pick up</h1>
-                </div>
-                <div class="col-sm">
-                    <h1>Table Reservation</h1>
-                </div>
-            </div>
-        </div>
-        <!-- Content 4 -->
     </body>
 </html> 

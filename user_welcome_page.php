@@ -102,7 +102,7 @@
                                                                 <img src="pic\table.png" width="45" height="45" class="d-inline-block align-top" alt="">
                                                                 </a>
 
-                                                                <a href="user_reservation_venue_form.php?type=Venue" type="button" class="btn btn-secondary btn-lg mx-auto">
+                                                                <a href="user_reservation_venue_date.php?type=Venue" type="button" class="btn btn-secondary btn-lg mx-auto">
                                                                 Venue      
                                                                 <img src="pic\venue.png" width="45" height="45" class="d-inline-block align-top" alt="">
                                                                 </a>
@@ -122,7 +122,7 @@
         </div>
 
         <!-- Content 2 -->
-        <div class="container-fluid mt-5" style="background-color: #CF3A24">
+        <div class="container-fluid mt-5 mb-5" style="background-color: #CF3A24">
             <div class="row">
                 <div class="col-sm p-3 text-center">
                     <div class="card" style="width: 18rem; background-color: #CF3A24; border: none">
@@ -161,17 +161,5 @@
                 <a href="user_view_menu.php" class="btn btn-dark ml-auto" style="color: white">View Menu</a>
             </div>
         </div>
-        <!-- Content 3 -->
-        <div class="container p-5">
-            <div class="row text-center">
-                <div class="col-sm">
-                    <h1>Food Pick up</h1>
-                </div>
-                <div class="col-sm">
-                    <h1>Table Reservation</h1>
-                </div>
-            </div>
-        </div>
-        <!-- Content 4 -->
     </body>
 </html> 

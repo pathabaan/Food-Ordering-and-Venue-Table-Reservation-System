@@ -30,8 +30,8 @@
         <div class="card mx-auto" style="width: 49rem; background-color: #FFA07A">
             <div class="card-body">
                 <div class="bg-success clearfix">
-                    <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>1. FORM ></b></button>
-                    <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>2. PAYMENT</b></button>
+                    <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>1. DATE ></b></button>
+                    <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>2. DETAILS</b></button>
                 </div>
                 <?php $type = $_GET['type']?>
                 <div class="container mx-auto">
@@ -47,7 +47,7 @@
                         </div>
                         <div class="row">
                             <a href="user_welcome_page.php" class="btn btn-dark ml-auto  mr-4 mb-3 row" style="color: black">BACK</a>
-                            <button type="submit" class="btn btn-success ml-auto  mr-4 mb-3 row" style="color: black">NEXT</a>
+                            <a href="user_reservation_venue_details.php" class="btn btn-success ml-auto  mr-4 mb-3 row" style="color: black">NEXT</a>
                         </div>
                     </form>
                 </div>

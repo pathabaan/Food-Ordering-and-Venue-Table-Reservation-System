@@ -36,8 +36,8 @@
             <div class="card-body">
 
               <div class="bg-success clearfix">
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4">1. DETAILS ></button>
-                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled>2. RECEIPT</button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4">1. ORDER DETAILS ></button>
+                  <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled>2. REFERENCE NO. </button>
               </div>
 
               <div class="container mx-auto">
@@ -56,7 +56,7 @@
                             <p class="card-text">3X MEAL B PHP.200.OO</p>
                             <p class="card-text">3X MEAL B PHP.200.OO</p>
                             <a href="user_pickup.php" class="btn btn-danger row mr-5">ADD MORE</a>
-                            <a href="user_pickup_checkout_receipt.php" class="btn btn-success row">CONFIRM MY ORDER</a>
+                            <a href="user_pickup_checkout_code.php" class="btn btn-success row">CONFIRM MY ORDER</a>
                         </div>
                      </div>
 
