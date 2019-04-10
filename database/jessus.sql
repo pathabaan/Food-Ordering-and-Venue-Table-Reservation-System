@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.8.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 29, 2019 at 09:02 PM
--- Server version: 5.7.24
--- PHP Version: 7.2.2
+-- Generation Time: Apr 10, 2019 at 10:28 AM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 7.3.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -69,9 +69,15 @@ CREATE TABLE `reserve_tbl` (
   `reserve_time` time NOT NULL,
   `reserve_type` varchar(255) NOT NULL,
   `user_id` int(11) NOT NULL,
-  `table_id` int(11) NOT NULL,
-  `venue_date` varchar(255) DEFAULT NULL
+  `table_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `reserve_tbl`
+--
+
+INSERT INTO `reserve_tbl` (`reserve_id`, `reserve_time`, `reserve_type`, `user_id`, `table_id`) VALUES
+(1, '12:15:00', 'Table', 1, 22);
 
 -- --------------------------------------------------------
 
@@ -91,7 +97,7 @@ CREATE TABLE `table_tbl` (
 --
 
 INSERT INTO `table_tbl` (`table_id`, `table_name`, `table_seat`, `table_status`) VALUES
-(22, 'TB4', 4, 'Reserved');
+(22, 'TB4', 4, 'Available');
 
 -- --------------------------------------------------------
 
@@ -183,13 +189,13 @@ ALTER TABLE `product_tbl`
 -- AUTO_INCREMENT for table `reserve_tbl`
 --
 ALTER TABLE `reserve_tbl`
-  MODIFY `reserve_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `reserve_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `table_tbl`
 --
 ALTER TABLE `table_tbl`
-  MODIFY `table_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `table_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `user`

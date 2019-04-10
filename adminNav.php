@@ -47,7 +47,7 @@
                   </div>
               </li>
               <li>
-                  <a href="#" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                  <a href="admin.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
               </li>
               <li>
                   <a href="#"><i class="fa fa-sitemap fa-fw"></i> Maintenance<span class="fa arrow"></span></a>
@@ -67,10 +67,10 @@
                           <a href="#">Orders</a>
                       </li>
                       <li>
-                          <a href="table_reservation.php">Table Reseration</a>
+                          <a href="table_reservation.php">Table Reservation</a>
                       </li>
                       <li>
-                          <a href="#">Venue Reseration</a>
+                          <a href="venue_reservation.php">Venue Reservation</a>
                       </li>
                   </ul>
               </li>
