@@ -101,35 +101,36 @@
                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name">
                           </div>
                       </div>
-                
+
                       <div class="form-group">
                             <div class="col-sm-6">
-                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name">
+                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Middle Name">
+                          </div>
+
+                      <div class="form-group">
+                            <div class="col-sm-6 mt-3">
+                              <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Last Name">
                           </div>
 
                           <div class="form-row">
-                            <div class="form-group col-md-3">
+                            <div class="form-group col-md-3 mt-2">
                                 <label for="inputEmail4">User Name</label>
                                 <input type="email" class="form-control" id="inputEmail4" placeholder="User Name">
                               </div>
 
 
-                          <div class="form-group col-md-3">
+                          <div class="form-group col-md-3 mt-2">
                               <label for="inputPassword4">Password</label>
                               <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
                               <small id="passwordHelpBlock" class="form-text text-dark">Your password must be 8-20 characters long.</small>
                             </div>
                       </div>
 
+              <!--
               <form class="px-4 py-5">
                   <div class="form-group">
                       <label>Birthday</label>
-                    </div>
-                  <div class="form-row">
-                      <div class="form-group col-md-2">
-                      <input type="text" class="form-control" id="inputCity" placeholder="Year">
-                  </div>
-
+                    </div>                    
 
                   <div class="form-group col-md-2">
                         <select id="inputState" class="form-control">
@@ -151,7 +152,7 @@
                     <div class="form-group col-md-2">
                       <input type="text" class="form-control" id="inputZip" placeholder="Day">
                     </div>
-                </div>
+                </div>   -->
 
                 <div class="form-group">
                   <div class="form-check">
@@ -160,7 +161,9 @@
                       I agree in term & conditions
                     </label>
                   </div>
-                  <a class="btn btn-primary btn-lg active" href="user_welcome_page.php" role="button" aria-pressed="true">Create My Account</a>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Create My Account
+                  </button>
                 </div>
                 </form>
           </div>

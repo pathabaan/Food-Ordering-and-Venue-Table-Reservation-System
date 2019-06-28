@@ -31,7 +31,7 @@
             <div class="card-body">
 
                 <div class="bg-success clearfix">
-                    <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>1. TIME ></b></button>
+                    <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"><b>1. TABLE ></b></button>
                     <button type="button" class="btn btn-secondary float-middle ml-4 mr-4"disabled><b>2. DETAILS</b></button>
                 </div>
 
@@ -85,9 +85,10 @@
                     </form>
                 </div>
             </div>
+            </div>
             
             <!-- Content 1 -->
-            <div class="container-fluid mt-5" style="background-color: #CF3A24">
+            <div class="container-fluid mt-5 mb-5" style="background-color: #CF3A24">
                 <div class="row">
                     <div class="col-sm text-center">
                         <div class="card" style="width: 18rem; background-color: #CF3A24; border: none">
