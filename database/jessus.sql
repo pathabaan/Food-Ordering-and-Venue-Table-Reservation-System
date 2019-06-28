@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 10, 2019 at 10:28 AM
+-- Generation Time: Jun 28, 2019 at 03:17 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -97,7 +97,7 @@ CREATE TABLE `table_tbl` (
 --
 
 INSERT INTO `table_tbl` (`table_id`, `table_name`, `table_seat`, `table_status`) VALUES
-(22, 'TB4', 4, 'Available');
+(1, 'PHI', 4, '2');
 
 -- --------------------------------------------------------
 
@@ -170,6 +170,12 @@ ALTER TABLE `user`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `venue_tbl`
+--
+ALTER TABLE `venue_tbl`
+  ADD PRIMARY KEY (`user_id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -195,7 +201,7 @@ ALTER TABLE `reserve_tbl`
 -- AUTO_INCREMENT for table `table_tbl`
 --
 ALTER TABLE `table_tbl`
-  MODIFY `table_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `table_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `user`
