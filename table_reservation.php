@@ -52,10 +52,11 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                <h3>Available tables for reservations</h3>
-                               <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">+ ADD TABLE</button>
+                               <!-- <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">+ ADD TABLE</button>
+                               -->
                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
-                                            <!-- Modal -->
+                                        Modal
                                             <div class="modal-content">
                                                 <form action="Tables/add_table.php" method="post">
                                                     <div class="modal-header">
@@ -84,7 +85,7 @@
                                                     </div>
                                                 </form>
                                             </div>
-                                            <!-- /.modal-content -->
+                                             /.modal-content -->
                                         </div>
                                         <!-- /.modal-dialog -->
                                     </div>

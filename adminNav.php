@@ -13,7 +13,7 @@
       <span class="icon-bar"></span>
   </button>
 
-  <!-- Top Navigation: Right Menu -->
+  <!-- Top Navigation: Right Menu --> 
   <ul class="nav navbar-right navbar-top-links">
       <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">
